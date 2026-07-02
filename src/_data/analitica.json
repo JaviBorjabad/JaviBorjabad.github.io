@@ -1,0 +1,4 @@
+{
+  "_comentario": "ID de medición de Google Analytics 4 (formato G-XXXXXXXXXX). Vacío = analítica desactivada, sin tocar plantillas.",
+  "ga4MeasurementId": "G-T435T53YFB"
+}

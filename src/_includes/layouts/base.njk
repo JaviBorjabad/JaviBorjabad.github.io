@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ titulo }} · Padel Selecto</title>
   <meta name="description" content="{{ descripcion or 'Guías y comparativas de material de pádel: palas, zapatillas, ropa y accesorios.' }}">
+  <meta name="google-site-verification" content="0TKwsqVBAseelualK0Jm9T1-Yl7jQBpu_sNUPwRpnzE" />
   {% if noIndexar %}<meta name="robots" content="noindex, follow">{% endif %}
   <link rel="canonical" href="https://padelselecto.com{{ page.url }}">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
@@ -24,7 +25,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-<body{% if categoriaComparador %} data-comparador-categoria="{{ categoriaComparador }}"{% endif %}>
+<body{% if categoriaComparador %} data-comparador-categoria="{{ categoriaComparador }}"{% endif %} data-ga4-id="{{ analitica.ga4MeasurementId }}">
   {% include "partials/header.njk" %}
   <main>
     {{ content | safe }}
@@ -37,5 +38,6 @@
   {% if categoriaComparador %}
     <script src="/assets/js/comparador.js" defer></script>
   {% endif %}
+  <script src="/assets/js/analitica.js" defer></script>
 </body>
 </html>
