@@ -33,6 +33,20 @@ descripcion: Comparativas técnicas de material de pádel para elegir con criter
   </div>
 </section>
 
+{% if ofertasAmazon.length %}
+<section class="seccion contenedor">
+  <div class="seccion__titulo-linea">
+    <h2>Ofertas destacadas</h2>
+    <a href="/ofertas/" class="etiqueta">Ver todas las ofertas →</a>
+  </div>
+  <div class="productos-grid">
+    {% for producto in ofertasAmazon | limite(4) %}
+      {{ card(producto, producto.categoria, afiliados) }}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 <section class="seccion contenedor">
   <div class="seccion__titulo-linea">
     <h2>Destacados</h2>

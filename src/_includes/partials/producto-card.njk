@@ -29,9 +29,16 @@
         <span class="precio-antes">{{ producto.precioAntes | euros }}</span>
       {% endif %}
     </div>
-    <a href="{{ url(producto, afiliados) | trim }}" class="boton boton--cta" rel="nofollow sponsored noopener" target="_blank">
-      Ver precio en {{ nombreTienda(producto, afiliados) | trim }}
-    </a>
+    <div class="producto-card__acciones">
+      <a href="{{ url(producto, afiliados) | trim }}" class="boton boton--cta" rel="nofollow sponsored noopener" target="_blank">
+        Ver precio en {{ nombreTienda(producto, afiliados) | trim }}
+      </a>
+      {% if cat == "palas" or cat == "zapatillas" %}
+        <button type="button" class="boton-comparar" data-comparador-toggle data-categoria="{{ cat }}" data-id="{{ producto.id }}" data-nombre="{{ producto.nombre }}" data-activo="false">
+          <span class="boton-comparar__texto">Comparar</span>
+        </button>
+      {% endif %}
+    </div>
   </div>
 </article>
 {% endmacro %}

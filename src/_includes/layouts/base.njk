@@ -5,17 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ titulo }} · Padel Selecto</title>
   <meta name="description" content="{{ descripcion or 'Guías y comparativas de material de pádel: palas, zapatillas, ropa y accesorios.' }}">
+  {% if noIndexar %}<meta name="robots" content="noindex, follow">{% endif %}
+  <link rel="canonical" href="https://padelselecto.com{{ page.url }}">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+
+  <meta property="og:site_name" content="Padel Selecto">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ titulo }} · Padel Selecto">
+  <meta property="og:description" content="{{ descripcion or 'Guías y comparativas de material de pádel: palas, zapatillas, ropa y accesorios.' }}">
+  <meta property="og:url" content="https://padelselecto.com{{ page.url }}">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ titulo }} · Padel Selecto">
+  <meta name="twitter:description" content="{{ descripcion or 'Guías y comparativas de material de pádel: palas, zapatillas, ropa y accesorios.' }}">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-<body>
+<body{% if categoriaComparador %} data-comparador-categoria="{{ categoriaComparador }}"{% endif %}>
   {% include "partials/header.njk" %}
   <main>
     {{ content | safe }}
   </main>
+  {% if categoriaComparador %}
+    {% include "partials/barra-comparador.njk" %}
+  {% endif %}
   {% include "partials/footer.njk" %}
   {% include "partials/cookie-banner.njk" %}
+  {% if categoriaComparador %}
+    <script src="/assets/js/comparador.js" defer></script>
+  {% endif %}
 </body>
 </html>

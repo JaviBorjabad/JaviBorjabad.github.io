@@ -24,10 +24,12 @@
     document.getElementById("cookies-aceptar").addEventListener("click", function () {
       localStorage.setItem(CLAVE, "aceptadas");
       banner.hidden = true;
+      if (window.ajustarPosicionBarra) window.ajustarPosicionBarra();
     });
     document.getElementById("cookies-rechazar").addEventListener("click", function () {
       localStorage.setItem(CLAVE, "rechazadas");
       banner.hidden = true;
+      if (window.ajustarPosicionBarra) window.ajustarPosicionBarra();
     });
   })();
 </script>

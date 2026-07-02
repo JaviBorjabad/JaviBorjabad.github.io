@@ -8,8 +8,24 @@ permalink: "/{{ producto.categoria }}/{{ producto.id }}/"
 eleventyComputed:
   titulo: "{{ producto.nombre }}"
   descripcion: "{{ producto.descripcionCorta }}"
+  categoriaComparador: "{% if producto.categoria == 'palas' or producto.categoria == 'zapatillas' %}{{ producto.categoria }}{% endif %}"
 ---
 {% from "partials/enlace-afiliado.njk" import url, nombreTienda %}
+{% set productoLd = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": producto.nombre,
+  "description": producto.descripcionCorta,
+  "brand": { "@type": "Brand", "name": producto.marca },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://padelselecto.com/" + producto.categoria + "/" + producto.id + "/",
+    "priceCurrency": "EUR",
+    "price": producto.precio,
+    "availability": "https://schema.org/InStock"
+  }
+} %}
+<script type="application/ld+json">{{ productoLd | dump | safe }}</script>
 
 <section class="ficha-producto contenedor">
   {% include "partials/aviso-afiliados.njk" %}
@@ -45,6 +61,11 @@ eleventyComputed:
         <a href="{{ url(producto, afiliados) | trim }}" class="boton boton--cta boton--grande" rel="nofollow sponsored noopener" target="_blank">
           Ver precio en {{ nombreTienda(producto, afiliados) | trim }}
         </a>
+        {% if producto.categoria == "palas" or producto.categoria == "zapatillas" %}
+          <button type="button" class="boton-comparar" data-comparador-toggle data-categoria="{{ producto.categoria }}" data-id="{{ producto.id }}" data-nombre="{{ producto.nombre }}" data-activo="false">
+            <span class="boton-comparar__texto">Comparar</span>
+          </button>
+        {% endif %}
       </div>
 
       <h2>Ficha técnica</h2>

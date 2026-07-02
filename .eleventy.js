@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
+  eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
 
   eleventyConfig.addFilter("euros", (value) => {
     if (typeof value !== "number") return value;
@@ -15,6 +16,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("descuento", (precioAntes, precioAhora) => {
     if (!precioAntes || !precioAhora || precioAntes <= precioAhora) return null;
     return Math.round(100 - (precioAhora / precioAntes) * 100);
+  });
+
+  eleventyConfig.addFilter("limite", (array, n) => {
+    if (!Array.isArray(array)) return array;
+    return array.slice(0, n);
   });
 
   return {

@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+titulo: Ofertas destacadas
+descripcion: Material de pádel de Amazon con al menos un 30% de descuento sobre su precio anterior.
+permalink: /ofertas/
+---
+{% from "partials/producto-card.njk" import card %}
+
+<section class="contenedor" style="padding-top: 24px;">
+  {% include "partials/aviso-afiliados.njk" %}
+  <div class="seccion__titulo-linea" style="margin-top: 24px;">
+    <h1 style="margin:0;">Ofertas destacadas</h1>
+  </div>
+  <p>Productos de Amazon con un descuento de al menos un 30% sobre su precio anterior. Esta lista se actualiza según los precios que tengamos registrados para cada producto — el precio final siempre lo confirma Amazon en el momento de la compra.</p>
+
+  {% if ofertasAmazon.length %}
+    <div class="productos-grid">
+      {% for producto in ofertasAmazon %}
+        {{ card(producto, producto.categoria, afiliados) }}
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="comparativa-vacia">
+      <p>Ahora mismo no hay ninguna oferta que supere el 30% de descuento.</p>
+    </div>
+  {% endif %}
+</section>

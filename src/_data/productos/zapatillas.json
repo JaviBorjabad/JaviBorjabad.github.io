@@ -4,7 +4,7 @@
     "nombre": "Asics Gel Padel Pro",
     "marca": "Asics",
     "precio": 99.95,
-    "precioAntes": 119.95,
+    "precioAntes": 149.95,
     "descripcionCorta": "Zapatilla específica de pádel con suela de espiga para pistas de césped artificial. Amortiguación Gel en talón, pensada para jugadores que hacen muchos desplazamientos laterales.",
     "specs": [
       { "clave": "Suela", "valor": "Espiga (césped artificial)" },

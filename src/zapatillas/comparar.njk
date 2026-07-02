@@ -1,0 +1,126 @@
+---
+layout: layouts/base.njk
+titulo: Comparativa de zapatillas
+descripcion: Compara hasta 5 zapatillas de pádel lado a lado por sus características técnicas.
+permalink: /zapatillas/comparar/
+categoriaComparador: zapatillas
+noIndexar: true
+eleventyExcludeFromCollections: true
+---
+<section class="contenedor" style="padding-top: 24px;">
+  <p class="ficha-producto__migas" style="margin-top: 16px;">
+    <a href="/zapatillas/">Zapatillas</a> / Comparativa
+  </p>
+  <div class="seccion__titulo-linea" style="margin-top: 8px;">
+    <h1 style="margin:0;">Comparativa de zapatillas</h1>
+  </div>
+
+  <div id="comparativa-contenido">
+    <p class="etiqueta">Cargando comparativa…</p>
+  </div>
+</section>
+
+<script type="application/json" id="datos-comparativa">{{ productos.zapatillas | dump | safe }}</script>
+<script>
+  (function () {
+    var CATEGORIA = "zapatillas";
+
+    function euros(valor) {
+      return (
+        valor.toLocaleString("es-ES", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €"
+      );
+    }
+
+    function renderizar() {
+      var contenedor = document.getElementById("comparativa-contenido");
+      var todos = JSON.parse(document.getElementById("datos-comparativa").textContent);
+      var seleccion = window.Comparador.obtenerSeleccion(CATEGORIA);
+
+      if (seleccion.length === 0) {
+        contenedor.innerHTML =
+          '<div class="comparativa-vacia">' +
+          "<p>Todavía no has añadido ninguna zapatilla a la comparativa.</p>" +
+          '<a href="/zapatillas/" class="boton boton--cta" style="width:auto; display:inline-block;">Ir a zapatillas</a>' +
+          "</div>";
+        return;
+      }
+
+      var productos = seleccion
+        .map(function (item) {
+          return todos.find(function (p) {
+            return p.id === item.id;
+          });
+        })
+        .filter(Boolean);
+
+      var claves = [];
+      productos.forEach(function (p) {
+        (p.specs || []).forEach(function (spec) {
+          if (claves.indexOf(spec.clave) === -1) claves.push(spec.clave);
+        });
+      });
+
+      var html =
+        '<div class="tabla-comparativa-wrap"><table class="tabla-comparativa"><thead><tr><th class="columna-spec"></th>';
+      productos.forEach(function (p) {
+        html +=
+          "<th>" +
+          '<div class="comparativa-producto__imagen">' +
+          (p.imagen ? '<img src="' + p.imagen + '" alt="' + p.nombre + '">' : "👟") +
+          "</div>" +
+          '<p class="comparativa-producto__marca">' +
+          p.marca +
+          "</p>" +
+          '<p class="comparativa-producto__nombre"><a href="/' +
+          CATEGORIA +
+          "/" +
+          p.id +
+          '/">' +
+          p.nombre +
+          "</a></p>" +
+          '<p class="comparativa-producto__precio">' +
+          euros(p.precio) +
+          "</p>" +
+          '<button type="button" class="comparativa-producto__quitar" data-quitar="' +
+          p.id +
+          '">Quitar</button>' +
+          "</th>";
+      });
+      html += "</tr></thead><tbody>";
+
+      claves.forEach(function (clave) {
+        html += '<tr><th class="columna-spec">' + clave + "</th>";
+        productos.forEach(function (p) {
+          var spec = (p.specs || []).find(function (s) {
+            return s.clave === clave;
+          });
+          html += "<td>" + (spec ? spec.valor : "—") + "</td>";
+        });
+        html += "</tr>";
+      });
+
+      html += "</tbody></table></div>";
+      contenedor.innerHTML = html;
+
+      contenedor.querySelectorAll("[data-quitar]").forEach(function (boton) {
+        boton.addEventListener("click", function () {
+          window.Comparador.quitar(CATEGORIA, boton.getAttribute("data-quitar"));
+          window.Comparador.actualizarUI(CATEGORIA);
+          renderizar();
+        });
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      renderizar();
+      var vaciarBtn = document.getElementById("barra-comparador-vaciar");
+      if (vaciarBtn) {
+        vaciarBtn.addEventListener("click", function () {
+          window.Comparador.vaciar(CATEGORIA);
+          window.Comparador.actualizarUI(CATEGORIA);
+          renderizar();
+        });
+      }
+    });
+  })();
+</script>
