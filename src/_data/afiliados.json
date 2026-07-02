@@ -1,0 +1,15 @@
+{
+  "_comentario": "IDs de afiliado centralizados. Cambia estos valores por los reales antes de publicar — no hay ningún ID hardcodeado en las páginas ni en las fichas de producto.",
+  "amazon": {
+    "tag": "padelselecto-21",
+    "urlBase": "https://www.amazon.es/dp/{asin}?tag={tag}"
+  },
+  "awin": {
+    "affiliateId": "0000000",
+    "padelPoint": {
+      "nombre": "Padel-Point",
+      "advertiserId": "00000",
+      "urlBase": "https://www.awin1.com/cread.php?awinmid={advertiserId}&awinaffid={affiliateId}&clickref=&p={urlDestino}"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "camiseta-tecnica-bullpadel",
+    "nombre": "Camiseta técnica Bullpadel Pro",
+    "marca": "Bullpadel",
+    "precio": 34.95,
+    "precioAntes": null,
+    "descripcionCorta": "Camiseta de competición en tejido transpirable con tecnología de secado rápido. Costuras planas para evitar rozaduras en golpeo repetido.",
+    "specs": [
+      { "clave": "Tejido", "valor": "Poliéster técnico transpirable" },
+      { "clave": "Tecnología", "valor": "Secado rápido / control de humedad" },
+      { "clave": "Corte", "valor": "Ajustado (fit competición)" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0EXROPA01" },
+    "destacado": true
+  },
+  {
+    "id": "short-nox-team",
+    "nombre": "Short Nox Team",
+    "marca": "Nox",
+    "precio": 29.95,
+    "precioAntes": 34.95,
+    "descripcionCorta": "Short con bolsillo porta-pelotas integrado y cintura elástica con cordón de ajuste. Tejido ligero pensado para sesiones largas.",
+    "specs": [
+      { "clave": "Tejido", "valor": "Poliéster elástico" },
+      { "clave": "Bolsillos", "valor": "Porta-pelotas integrado" },
+      { "clave": "Cintura", "valor": "Elástica con cordón" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0EXROPA02" },
+    "destacado": false
+  },
+  {
+    "id": "polo-tecnico-head",
+    "nombre": "Polo técnico Head Club",
+    "marca": "Head",
+    "precio": 39.95,
+    "precioAntes": null,
+    "descripcionCorta": "Polo de mezcla algodón-poliéster para uso en pista y calle. Menos técnico que una camiseta de competición pura, pero más versátil fuera de la pista.",
+    "specs": [
+      { "clave": "Tejido", "valor": "65% poliéster / 35% algodón" },
+      { "clave": "Uso recomendado", "valor": "Pista y calle" },
+      { "clave": "Cuello", "valor": "Polo con botones" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0EXROPA03" },
+    "destacado": false
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "padel-selecto",
+  "version": "1.0.0",
+  "description": "Web de afiliados de material de pádel (padelselecto.com)",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "serve": "node scripts/serve.js",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

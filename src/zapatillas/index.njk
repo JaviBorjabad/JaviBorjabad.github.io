@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+titulo: Zapatillas de pádel
+descripcion: Comparativa de zapatillas de pádel por tipo de suela, amortiguación y superficie recomendada.
+permalink: /zapatillas/
+---
+{% from "partials/producto-card.njk" import card %}
+
+<section class="contenedor" style="padding-top: 24px;">
+  {% include "partials/aviso-afiliados.njk" %}
+  <div class="seccion__titulo-linea" style="margin-top: 24px;">
+    <h1 style="margin:0;">Zapatillas</h1>
+  </div>
+  <p>La suela es el factor técnico más relevante: espiga para césped artificial, mixta para multisuperficie. La amortiguación y el refuerzo lateral condicionan la respuesta en cambios de dirección rápidos, algo constante en pádel.</p>
+
+  <div class="productos-grid">
+    {% for producto in productos.zapatillas %}
+      {{ card(producto, "zapatillas", afiliados) }}
+    {% endfor %}
+  </div>
+</section>

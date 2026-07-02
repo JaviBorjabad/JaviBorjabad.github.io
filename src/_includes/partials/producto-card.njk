@@ -1,0 +1,37 @@
+{% from "partials/enlace-afiliado.njk" import url, nombreTienda %}
+
+{% macro card(producto, categoria, afiliados) %}
+{% set cat = categoria or producto.categoria %}
+<article class="producto-card">
+  <a href="/{{ cat }}/{{ producto.id }}/" class="producto-card__imagen-link">
+    <div class="producto-card__imagen producto-card__imagen--{{ cat }}">
+      {% if producto.precioAntes %}
+        <span class="badge badge--descuento">-{{ producto.precioAntes | descuento(producto.precio) }}%</span>
+      {% endif %}
+      <span class="producto-card__icono" aria-hidden="true">
+        {%- if cat == "palas" -%}🎾
+        {%- elif cat == "zapatillas" -%}👟
+        {%- elif cat == "ropa" -%}👕
+        {%- elif cat == "accesorios" -%}🧤
+        {%- endif -%}
+      </span>
+    </div>
+  </a>
+  <div class="producto-card__cuerpo">
+    <p class="producto-card__marca">{{ producto.marca }}</p>
+    <h3 class="producto-card__nombre">
+      <a href="/{{ cat }}/{{ producto.id }}/">{{ producto.nombre }}</a>
+    </h3>
+    <p class="producto-card__descripcion">{{ producto.descripcionCorta | truncate(110) }}</p>
+    <div class="producto-card__precio">
+      <span class="precio-actual">{{ producto.precio | euros }}</span>
+      {% if producto.precioAntes %}
+        <span class="precio-antes">{{ producto.precioAntes | euros }}</span>
+      {% endif %}
+    </div>
+    <a href="{{ url(producto, afiliados) | trim }}" class="boton boton--cta" rel="nofollow sponsored noopener" target="_blank">
+      Ver precio en {{ nombreTienda(producto, afiliados) | trim }}
+    </a>
+  </div>
+</article>
+{% endmacro %}

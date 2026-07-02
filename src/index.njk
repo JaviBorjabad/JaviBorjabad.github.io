@@ -1,0 +1,47 @@
+---
+layout: layouts/base.njk
+titulo: Palas, zapatillas, ropa y accesorios de pádel
+descripcion: Comparativas técnicas de material de pádel para elegir con criterio. Palas, zapatillas, ropa y accesorios analizados por especificaciones.
+---
+{% from "partials/producto-card.njk" import card %}
+
+<section class="hero">
+  <div class="contenedor hero__inner">
+    <h1>Elige tu material de pádel <span class="hero__acento">con datos, no con marketing</span></h1>
+    <p>Comparativas técnicas de palas, zapatillas, ropa y accesorios: forma, balance, núcleo y nivel recomendado, sin relleno. Analizamos las specs para que decidas tú.</p>
+  </div>
+</section>
+
+<section class="categorias contenedor">
+  <div class="categorias__grid">
+    <a href="/palas/" class="categoria-card">
+      <span class="categoria-card__icono" aria-hidden="true">🎾</span>
+      <span class="categoria-card__nombre">Palas</span>
+    </a>
+    <a href="/zapatillas/" class="categoria-card">
+      <span class="categoria-card__icono" aria-hidden="true">👟</span>
+      <span class="categoria-card__nombre">Zapatillas</span>
+    </a>
+    <a href="/ropa/" class="categoria-card">
+      <span class="categoria-card__icono" aria-hidden="true">👕</span>
+      <span class="categoria-card__nombre">Ropa</span>
+    </a>
+    <a href="/accesorios/" class="categoria-card">
+      <span class="categoria-card__icono" aria-hidden="true">🧤</span>
+      <span class="categoria-card__nombre">Accesorios</span>
+    </a>
+  </div>
+</section>
+
+<section class="seccion contenedor">
+  <div class="seccion__titulo-linea">
+    <h2>Destacados</h2>
+  </div>
+  <div class="productos-grid">
+    {% for producto in todosProductos %}
+      {% if producto.destacado %}
+        {{ card(producto, producto.categoria, afiliados) }}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

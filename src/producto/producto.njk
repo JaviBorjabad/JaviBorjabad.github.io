@@ -1,0 +1,63 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: todosProductos
+  size: 1
+  alias: producto
+permalink: "/{{ producto.categoria }}/{{ producto.id }}/"
+eleventyComputed:
+  titulo: "{{ producto.nombre }}"
+  descripcion: "{{ producto.descripcionCorta }}"
+---
+{% from "partials/enlace-afiliado.njk" import url, nombreTienda %}
+
+<section class="ficha-producto contenedor">
+  {% include "partials/aviso-afiliados.njk" %}
+
+  <p class="ficha-producto__migas" style="margin-top: 16px;">
+    <a href="/{{ producto.categoria }}/">{{ producto.categoriaNombre }}</a> / {{ producto.nombre }}
+  </p>
+
+  <div class="ficha-producto__grid">
+    <div>
+      <div class="ficha-producto__imagen producto-card__imagen producto-card__imagen--{{ producto.categoria }}">
+        {%- if producto.categoria == "palas" -%}🎾
+        {%- elif producto.categoria == "zapatillas" -%}👟
+        {%- elif producto.categoria == "ropa" -%}👕
+        {%- elif producto.categoria == "accesorios" -%}🧤
+        {%- endif -%}
+      </div>
+    </div>
+
+    <div>
+      <p class="ficha-producto__marca">{{ producto.marca }}</p>
+      <h1>{{ producto.nombre }}</h1>
+      <p>{{ producto.descripcionCorta }}</p>
+
+      <div class="ficha-producto__precio-box">
+        <div class="producto-card__precio">
+          <span class="ficha-producto__precio-actual">{{ producto.precio | euros }}</span>
+          {% if producto.precioAntes %}
+            <span class="precio-antes">{{ producto.precioAntes | euros }}</span>
+            <span class="badge badge--descuento" style="position:static; display:inline-block;">-{{ producto.precioAntes | descuento(producto.precio) }}%</span>
+          {% endif %}
+        </div>
+        <a href="{{ url(producto, afiliados) | trim }}" class="boton boton--cta boton--grande" rel="nofollow sponsored noopener" target="_blank">
+          Ver precio en {{ nombreTienda(producto, afiliados) | trim }}
+        </a>
+      </div>
+
+      <h2>Ficha técnica</h2>
+      <table class="tabla-specs">
+        <tbody>
+          {% for spec in producto.specs %}
+          <tr>
+            <th>{{ spec.clave }}</th>
+            <td>{{ spec.valor }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

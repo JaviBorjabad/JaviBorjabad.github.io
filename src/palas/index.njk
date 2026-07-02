@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+titulo: Palas de pádel
+descripcion: Comparativa de palas de pádel por forma, balance y núcleo. Diamante, lágrima o redonda según tu nivel de juego.
+permalink: /palas/
+---
+{% from "partials/producto-card.njk" import card %}
+
+<section class="contenedor" style="padding-top: 24px;">
+  {% include "partials/aviso-afiliados.njk" %}
+  <div class="seccion__titulo-linea" style="margin-top: 24px;">
+    <h1 style="margin:0;">Palas</h1>
+  </div>
+  <p>La forma de la pala determina el compromiso entre control y potencia: diamante favorece la pegada, redonda favorece el control, e híbrida (lágrima) busca un punto intermedio. El balance y el núcleo afinan esa decisión según tu nivel.</p>
+
+  <div class="productos-grid">
+    {% for producto in productos.palas %}
+      {{ card(producto, "palas", afiliados) }}
+    {% endfor %}
+  </div>
+</section>

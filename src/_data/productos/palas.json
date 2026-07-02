@@ -1,0 +1,53 @@
+[
+  {
+    "id": "vertex-04",
+    "nombre": "Bullpadel Vertex 04",
+    "marca": "Bullpadel",
+    "precio": 289.95,
+    "precioAntes": 339.95,
+    "descripcionCorta": "Pala de forma diamante para nivel avanzado/competición. Balance alto orientado a potencia, con núcleo de EVA de alta densidad que prioriza pegada sobre control.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "Foam EVA alta densidad" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" },
+      { "clave": "Peso", "valor": "355-375 g" }
+    ],
+    "afiliado": { "red": "awin", "urlDestino": "https://www.padelpoint.es/ejemplo/bullpadel-vertex-04" },
+    "destacado": true
+  },
+  {
+    "id": "speed-pro",
+    "nombre": "Head Speed Pro",
+    "marca": "Head",
+    "precio": 259.0,
+    "precioAntes": null,
+    "descripcionCorta": "Forma híbrida (lágrima) que equilibra control y potencia. Buena opción de transición para jugadores de nivel intermedio que buscan subir de nivel sin perder manejabilidad.",
+    "specs": [
+      { "clave": "Forma", "valor": "Híbrida (lágrima)" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Núcleo", "valor": "Foam EVA Soft" },
+      { "clave": "Nivel recomendado", "valor": "Intermedio / Avanzado" },
+      { "clave": "Peso", "valor": "350-370 g" }
+    ],
+    "afiliado": { "red": "awin", "urlDestino": "https://www.padelpoint.es/ejemplo/head-speed-pro" },
+    "destacado": false
+  },
+  {
+    "id": "metalbone",
+    "nombre": "Adidas Metalbone",
+    "marca": "Adidas",
+    "precio": 299.95,
+    "precioAntes": 329.95,
+    "descripcionCorta": "Diamante de control con tacto duro, pensada para jugadores que priorizan precisión en el golpeo por encima de la potencia bruta.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Medio-alto" },
+      { "clave": "Núcleo", "valor": "Foam multieva" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" },
+      { "clave": "Peso", "valor": "360-375 g" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0EXPALA03" },
+    "destacado": false
+  }
+]

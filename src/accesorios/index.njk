@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+titulo: Accesorios de pádel
+descripcion: Muñequeras, protectores de pala, grips y accesorios técnicos para jugar a pádel.
+permalink: /accesorios/
+---
+{% from "partials/producto-card.njk" import card %}
+
+<section class="contenedor" style="padding-top: 24px;">
+  {% include "partials/aviso-afiliados.njk" %}
+  <div class="seccion__titulo-linea" style="margin-top: 24px;">
+    <h1 style="margin:0;">Accesorios</h1>
+  </div>
+  <p>Los accesorios de menor coste tienen impacto directo en el rendimiento: un overgrip seco mantiene el agarre en partidos largos, un protector de pala frena el desgaste del marco en golpes bajos, y una muñequera de rizo controla la sudoración en manos.</p>
+
+  <div class="productos-grid">
+    {% for producto in productos.accesorios %}
+      {{ card(producto, "accesorios", afiliados) }}
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+titulo: Ropa técnica de pádel
+descripcion: Camisetas, shorts y polos técnicos para jugar a pádel. Tejidos transpirables y de secado rápido.
+permalink: /ropa/
+---
+{% from "partials/producto-card.njk" import card %}
+
+<section class="contenedor" style="padding-top: 24px;">
+  {% include "partials/aviso-afiliados.njk" %}
+  <div class="seccion__titulo-linea" style="margin-top: 24px;">
+    <h1 style="margin:0;">Ropa</h1>
+  </div>
+  <p>El tejido y el corte marcan la diferencia en sesiones largas: los tejidos técnicos con control de humedad reducen el peso por sudoración frente al algodón. El corte ajustado es propio de competición; el corte regular prioriza comodidad fuera de pista.</p>
+
+  <div class="productos-grid">
+    {% for producto in productos.ropa %}
+      {{ card(producto, "ropa", afiliados) }}
+    {% endfor %}
+  </div>
+</section>

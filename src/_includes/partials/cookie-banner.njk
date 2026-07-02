@@ -1,0 +1,33 @@
+<div id="banner-cookies" class="banner-cookies" hidden>
+  <div class="banner-cookies__inner">
+    <p>
+      Usamos cookies propias y de terceros para analizar el tráfico y
+      mejorar tu experiencia. Puedes aceptarlas todas o rechazar las que no
+      sean estrictamente necesarias. Más info en nuestra
+      <a href="/cookies/">política de cookies</a>.
+    </p>
+    <div class="banner-cookies__botones">
+      <button type="button" id="cookies-rechazar" class="boton boton--secundario">Rechazar no esenciales</button>
+      <button type="button" id="cookies-aceptar" class="boton boton--cta">Aceptar todas</button>
+    </div>
+  </div>
+</div>
+<script>
+  (function () {
+    var CLAVE = "padelselecto-cookies";
+    var banner = document.getElementById("banner-cookies");
+    if (!banner) return;
+    var yaDecidido = localStorage.getItem(CLAVE);
+    if (!yaDecidido) {
+      banner.hidden = false;
+    }
+    document.getElementById("cookies-aceptar").addEventListener("click", function () {
+      localStorage.setItem(CLAVE, "aceptadas");
+      banner.hidden = true;
+    });
+    document.getElementById("cookies-rechazar").addEventListener("click", function () {
+      localStorage.setItem(CLAVE, "rechazadas");
+      banner.hidden = true;
+    });
+  })();
+</script>
