@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+titulo: Guías de compra
+descripcion: Guías técnicas para elegir palas, zapatillas y accesorios de pádel según tu nivel de juego.
+permalink: /guias/
+---
+<section class="contenedor" style="padding-top: 24px; padding-bottom: 64px;">
+  <div class="seccion__titulo-linea" style="margin-top: 24px;">
+    <h1 style="margin:0;">Guías de compra</h1>
+  </div>
+  <p>Antes de comparar modelos concretos, conviene tener claro qué buscar. Estas guías explican los criterios técnicos — sin marketing de por medio — para que llegues a las fichas de producto sabiendo qué mirar.</p>
+
+  <div class="guias-grid">
+    {% for guia in collections.guia %}
+      <a href="{{ guia.url }}" class="guia-card">
+        <p class="etiqueta">Guía de compra</p>
+        <h2>{{ guia.data.titulo }}</h2>
+        <p>{{ guia.data.descripcion }}</p>
+      </a>
+    {% endfor %}
+  </div>
+</section>

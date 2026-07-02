@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+---
+{% set articuloLd = {
+  "@context": "https://schema.org/",
+  "@type": "Article",
+  "headline": titulo,
+  "description": descripcion,
+  "author": { "@type": "Organization", "name": "Padel Selecto" },
+  "publisher": { "@type": "Organization", "name": "Padel Selecto" },
+  "mainEntityOfPage": "https://padelselecto.com" + page.url
+} %}
+<script type="application/ld+json">{{ articuloLd | dump | safe }}</script>
+
+<article class="articulo contenedor">
+  <p class="ficha-producto__migas" style="margin-top: 16px;">
+    <a href="/guias/">Guías</a> / {{ titulo }}
+  </p>
+  <p class="etiqueta">Guía de compra</p>
+  <h1>{{ titulo }}</h1>
+
+  <div class="articulo__cuerpo">
+    {{ content | safe }}
+  </div>
+
+  {% if categoriaRelacionada %}
+  <div class="cta-guia">
+    <p>¿Quieres ver los modelos disponibles ahora mismo?</p>
+    <div style="display:flex; gap:12px; flex-wrap:wrap;">
+      <a href="/{{ categoriaRelacionada }}/" class="boton boton--cta" style="width:auto; display:inline-block;">Ver {{ categoriaRelacionada }}</a>
+      <a href="/{{ categoriaRelacionada }}/comparar/" class="boton boton--secundario" style="width:auto; display:inline-block;">Comparar modelos</a>
+    </div>
+  </div>
+  {% endif %}
+</article>
