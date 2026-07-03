@@ -232,5 +232,78 @@
     "afiliado": { "red": "amazon", "asin": "B0CLTXSBZ1" },
     "destacado": false,
     "imagen": "https://m.media-amazon.com/images/I/51hEvGjbqML._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    "id": "nox-at10-luxury-genius-12k-xtreme-2026",
+    "nombre": "Nox AT10 Luxury Genius 12K Alum Xtreme 2026",
+    "marca": "Nox",
+    "precio": 239.95,
+    "precioAntes": 289.90,
+    "descripcionCorta": "Versión premium de la gama AT10, con carbono 12K para un plus de potencia respecto a temporadas anteriores.",
+    "specs": [
+      { "clave": "Forma", "valor": "Lágrima" },
+      { "clave": "Balance", "valor": "Medio-Alto" },
+      { "clave": "Núcleo", "valor": "MLD Black EVA" },
+      { "clave": "Carbono", "valor": "12K" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Todos los niveles" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0G168B7TB" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71NWhcd1zNL._AC_UL640_QL65_.jpg"
+  },
+  {
+    "id": "babolat-technical-viper-3-2026",
+    "nombre": "Babolat Technical Viper 3.0 2026",
+    "marca": "Babolat",
+    "precio": 274.95,
+    "precioAntes": null,
+    "descripcionCorta": "Modelo técnico de la gama Viper de Babolat, formato diamante orientado a jugadores ofensivos, disponible también en versiones Air y Counter.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "EVA alta densidad" },
+      { "clave": "Marco", "valor": "Carbono" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0GD32W32D" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61Bxd+3frFL._AC_SL1200_.jpg"
+  },
+  {
+    "id": "wilson-bela-v3",
+    "nombre": "Wilson Bela V3 - Fernando Belasteguín",
+    "marca": "Wilson",
+    "precio": 159.90,
+    "precioAntes": 175.90,
+    "descripcionCorta": "Pala del mejor jugador de la historia del pádel, formato diamante con tacto duro para golpes ofensivos y superficie rugosa para efectos.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Tacto", "valor": "Duro" },
+      { "clave": "Núcleo", "valor": "Power Foam" },
+      { "clave": "Superficie", "valor": "Rugosa (lija)" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0F2WSDGFT" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71s3Oyc05EL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "siux-diablo-pro-2026",
+    "nombre": "Siux Diablo Pro 2026 - Tino Libaak",
+    "marca": "Siux",
+    "precio": 224.95,
+    "precioAntes": null,
+    "descripcionCorta": "Colaboración de Siux con Tino Libaak, celebrando 10 años de la marca en el mundo del pádel, con forma diamante equilibrada.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "EVA" },
+      { "clave": "Marco", "valor": "Carbono" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FV8KDN8X" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51aiI24dD9L._AC_SX679_.jpg"
   }
 ]

@@ -65,5 +65,91 @@
     "afiliado": { "red": "amazon", "asin": "B0C3WKS54S" },
     "destacado": false,
     "imagen": "https://m.media-amazon.com/images/I/71c0F7IkqAL._AC_SY695_.jpg"
+  },
+  {
+    "id": "asics-gel-resolution-x-padel",
+    "nombre": "Asics Gel-Resolution X Padel",
+    "marca": "Asics",
+    "precio": 151.84,
+    "precioAntes": 160.00,
+    "descripcionCorta": "Gama alta de Asics para pádel, con sujeción lateral superior y sistema GEL reforzado para máxima estabilidad y durabilidad.",
+    "specs": [
+      { "clave": "Suela", "valor": "AHARPLUS de espiga" },
+      { "clave": "Amortiguación", "valor": "GEL en antepié" },
+      { "clave": "Sistema de ajuste", "valor": "Dynalacing" },
+      { "clave": "Estructura", "valor": "Dynawall (estabilidad lateral)" },
+      { "clave": "Superficie recomendada", "valor": "Césped artificial / arena" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0F5BKTD9D" },
+    "destacado": true,
+    "imagen": "https://m.media-amazon.com/images/I/61eqOq2JmOL._AC_SY695_.jpg"
+  },
+  {
+    "id": "babolat-jet-premura-2m",
+    "nombre": "Babolat Jet Premura 2 M",
+    "marca": "Babolat",
+    "precio": 109.00,
+    "precioAntes": null,
+    "descripcionCorta": "Zapatilla reactiva de Babolat, ligera y flexible, con suela desarrollada junto a Michelin para máximo agarre.",
+    "specs": [
+      { "clave": "Suela", "valor": "Michelin" },
+      { "clave": "Peso", "valor": "Reducido (gama reactiva)" },
+      { "clave": "Protección talón", "valor": "Sistema KPRS-X" },
+      { "clave": "Superficie recomendada", "valor": "Césped artificial" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0D5J19GWV" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71YyX8mD7xL._AC_SX679_.jpg"
+  },
+  {
+    "id": "head-motion-team-1-5-padel",
+    "nombre": "Head Motion Team 1.5 Padel",
+    "marca": "Head",
+    "precio": 68.46,
+    "precioAntes": 84.35,
+    "descripcionCorta": "Zapatilla de Head diseñada para jugadores que buscan agilidad, estabilidad y confort en movimientos multidireccionales.",
+    "specs": [
+      { "clave": "Suela", "valor": "Desarrollada con MONDO" },
+      { "clave": "Estabilidad", "valor": "Refuerzo 3D TPU en mediopié" },
+      { "clave": "Sujeción", "valor": "HEAD Lockdown Strap" },
+      { "clave": "Superficie recomendada", "valor": "Césped artificial / multisuperficie" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0G4X38Z14" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71VKhGIGeIL._AC_SY695_.jpg"
+  },
+  {
+    "id": "bullpadel-vertex-vibram-26v",
+    "nombre": "Bullpadel Vertex Vibram 26v",
+    "marca": "Bullpadel",
+    "precio": 94.95,
+    "precioAntes": null,
+    "descripcionCorta": "Propuesta premium de Bullpadel con suela Vibram, reconocida por su agarre excepcional y resistencia a la abrasión.",
+    "specs": [
+      { "clave": "Suela", "valor": "Vibram" },
+      { "clave": "Durabilidad", "valor": "Alta (pistas de mucho desgaste)" },
+      { "clave": "Estabilidad", "valor": "Estabilizador trasero" },
+      { "clave": "Superficie recomendada", "valor": "Césped artificial abrasivo" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0GFM792HY" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/618uCFd2ShL._AC_SY695_.jpg"
+  },
+  {
+    "id": "wilson-bela-tour-padel",
+    "nombre": "Wilson Bela Tour Negro 2025",
+    "marca": "Wilson",
+    "precio": 104.22,
+    "precioAntes": 160.00,
+    "descripcionCorta": "Zapatilla de gama alta co-diseñada con Fernando Belasteguín, con suela 360° específica de pádel y chasis de torsión 4D para máxima estabilidad en giros y esprints.",
+    "specs": [
+      { "clave": "Suela", "valor": "Duralast 360° específica de pádel (patrón circular tipo 'pata de gato')" },
+      { "clave": "Durabilidad", "valor": "Alta, alta resistencia a la abrasión" },
+      { "clave": "Estabilidad", "valor": "Chasis de torsión 4D + ajuste Endofit tipo calcetín" },
+      { "clave": "Superficie recomendada", "valor": "Césped artificial" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DKV8HYWW" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61YPNBawXkL._AC_SY695_.jpg"
   }
 ]
