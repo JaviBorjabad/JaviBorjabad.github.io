@@ -14,7 +14,8 @@
     "specs: lista de características técnicas como pares clave/valor. Añade las que tengan sentido para ese producto (mínimo 3-4 recomendado). Para zapatillas: Suela, Amortiguación, Superficie recomendada, Refuerzo lateral. Para ropa: Tejido, Tecnología/Uso, Corte. Para accesorios: Material, Unidades, lo que aplique.",
     "afiliadoRed: 'amazon' (de momento es lo único que usamos).",
     "afiliadoAsin: el código ASIN del producto en Amazon (lo sacas de la URL: amazon.es/dp/ASIN/...).",
-    "destacado: true o false (sin comillas). true = aparece en la sección 'Destacados' de la home. Deja false salvo que quieras destacarlo."
+    "destacado: true o false (sin comillas). true = aparece en la sección 'Destacados' de la home. Deja false salvo que quieras destacarlo.",
+    "imagen: URL de la foto del producto (opcional, déjalo como cadena vacía \"\" si no tienes una). Consíguela con SiteStripe (botón 'Imagen' en la barra de afiliado al ver el producto en Amazon) o haciendo clic derecho sobre la foto principal del producto > 'Copiar dirección de la imagen'. Si lo dejas vacío, se muestra un icono de la categoría en su lugar."
   ],
   "productos": [
     {
@@ -33,7 +34,8 @@
       ],
       "afiliadoRed": "amazon",
       "afiliadoAsin": "",
-      "destacado": false
+      "destacado": false,
+      "imagen": ""
     }
   ]
 }

@@ -8,13 +8,17 @@
       {% if producto.precioAntes %}
         <span class="badge badge--descuento">-{{ producto.precioAntes | descuento(producto.precio) }}%</span>
       {% endif %}
-      <span class="producto-card__icono" aria-hidden="true">
-        {%- if cat == "palas" -%}🎾
-        {%- elif cat == "zapatillas" -%}👟
-        {%- elif cat == "ropa" -%}👕
-        {%- elif cat == "accesorios" -%}🧤
-        {%- endif -%}
-      </span>
+      {% if producto.imagen %}
+        <img src="{{ producto.imagen }}" alt="{{ producto.nombre }}" loading="lazy" class="producto-card__foto">
+      {% else %}
+        <span class="producto-card__icono" aria-hidden="true">
+          {%- if cat == "palas" -%}🎾
+          {%- elif cat == "zapatillas" -%}👟
+          {%- elif cat == "ropa" -%}👕
+          {%- elif cat == "accesorios" -%}🧤
+          {%- endif -%}
+        </span>
+      {% endif %}
     </div>
   </a>
   <div class="producto-card__cuerpo">
