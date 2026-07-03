@@ -4,7 +4,7 @@
 {% set cat = categoria or producto.categoria %}
 <article class="producto-card">
   <a href="/{{ cat }}/{{ producto.id }}/" class="producto-card__imagen-link">
-    <div class="producto-card__imagen producto-card__imagen--{{ cat }}">
+    <div class="producto-card__imagen producto-card__imagen--{{ cat }}{% if producto.imagen %} producto-card__imagen--foto{% endif %}">
       {% if producto.precioAntes %}
         <span class="badge badge--descuento">-{{ producto.precioAntes | descuento(producto.precio) }}%</span>
       {% endif %}

@@ -37,7 +37,7 @@ eleventyComputed:
 
   <div class="ficha-producto__grid">
     <div>
-      <div class="ficha-producto__imagen producto-card__imagen producto-card__imagen--{{ producto.categoria }}">
+      <div class="ficha-producto__imagen producto-card__imagen producto-card__imagen--{{ producto.categoria }}{% if producto.imagen %} producto-card__imagen--foto{% endif %}">
         {% if producto.imagen %}
           <img src="{{ producto.imagen }}" alt="{{ producto.nombre }}" loading="lazy" class="producto-card__foto">
         {% else %}

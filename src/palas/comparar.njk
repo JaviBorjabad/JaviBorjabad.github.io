@@ -65,7 +65,7 @@ eleventyExcludeFromCollections: true
       productos.forEach(function (p) {
         html +=
           "<th>" +
-          '<div class="comparativa-producto__imagen">' +
+          '<div class="comparativa-producto__imagen' + (p.imagen ? " comparativa-producto__imagen--foto" : "") + '">' +
           (p.imagen ? '<img src="' + p.imagen + '" alt="' + p.nombre + '">' : "🎾") +
           "</div>" +
           '<p class="comparativa-producto__marca">' +

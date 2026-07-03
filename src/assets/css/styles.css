@@ -94,10 +94,24 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
 
 /* ---------- Header ---------- */
 .site-header {
+  position: relative;
+  overflow: hidden;
   background: var(--blanco);
   border-bottom: 1px solid var(--borde);
 }
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 220'%3E%3Crect width='800' height='220' fill='%23CFEAD9'/%3E%3Crect x='50' y='30' width='700' height='160' fill='none' stroke='%23FFFFFF' stroke-width='4'/%3E%3Cline x1='400' y1='30' x2='400' y2='190' stroke='%23FFFFFF' stroke-width='6'/%3E%3Cline x1='225' y1='30' x2='225' y2='190' stroke='%23FFFFFF' stroke-width='3'/%3E%3Cline x1='575' y1='30' x2='575' y2='190' stroke='%23FFFFFF' stroke-width='3'/%3E%3Cline x1='50' y1='110' x2='225' y2='110' stroke='%23FFFFFF' stroke-width='3'/%3E%3Cline x1='575' y1='110' x2='750' y2='110' stroke='%23FFFFFF' stroke-width='3'/%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+  z-index: 0;
+}
 .site-header__inner {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -234,6 +248,7 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
 .producto-card__imagen--zapatillas,
 .producto-card__imagen--ropa,
 .producto-card__imagen--accesorios { background: var(--gris-100); }
+.producto-card__imagen--foto { background: var(--blanco); }
 .producto-card__icono { font-size: 2.4rem; opacity: 0.7; }
 .producto-card__foto { width: 100%; height: 100%; object-fit: contain; padding: 12px; }
 .producto-card__cuerpo { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
@@ -348,7 +363,13 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
   z-index: 1;
   box-shadow: 2px 0 4px rgba(0, 0, 0, 0.05);
 }
+.tabla-comparativa thead th:not(.columna-spec) {
+  width: 220px;
+  min-width: 220px;
+  max-width: 220px;
+}
 .comparativa-producto__imagen {
+  width: 100%;
   aspect-ratio: 4 / 3;
   background: var(--gris-100);
   display: flex;
@@ -359,7 +380,8 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
   overflow: hidden;
   margin-bottom: 12px;
 }
-.comparativa-producto__imagen img { width: 100%; height: 100%; object-fit: cover; }
+.comparativa-producto__imagen--foto { background: var(--blanco); }
+.comparativa-producto__imagen img { width: 100%; height: 100%; object-fit: contain; padding: 10px; }
 .comparativa-producto__marca { text-transform: uppercase; font-size: 0.68rem; letter-spacing: 0.08em; color: var(--gris-500); }
 .comparativa-producto__nombre { font-weight: 500; font-size: 1rem; margin: 4px 0 8px; }
 .comparativa-producto__nombre a { color: var(--negro); }
