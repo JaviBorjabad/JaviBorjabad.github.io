@@ -1,5 +1,5 @@
 {
-  "_comentario": "IDs de afiliado centralizados. Cambia estos valores por los reales antes de publicar — no hay ningún ID hardcodeado en las páginas ni en las fichas de producto.",
+  "_comentario": "IDs de afiliado centralizados — no hay ningún ID hardcodeado en las páginas ni en las fichas de producto. amazon.tag es el ID real de Amazon Afiliados (aprobado). awin sigue pendiente de solicitar.",
   "amazon": {
     "tag": "padelselecto-21",
     "urlBase": "https://www.amazon.es/dp/{asin}?tag={tag}"
