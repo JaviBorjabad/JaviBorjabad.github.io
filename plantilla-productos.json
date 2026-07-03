@@ -1,6 +1,7 @@
 {
   "_instrucciones": [
-    "Copia el bloque de dentro de 'productos' tantas veces como productos quieras añadir (incluida la coma entre bloques).",
+    "Hay un ejemplo relleno por cada categoría (palas, zapatillas, ropa, accesorios) para que veas el patrón de specs de cada una.",
+    "Borra los 4 ejemplos o déjalos como referencia, y añade tus productos reales copiando un bloque tantas veces como necesites (con su coma entre bloques).",
     "Cuando termines, mándame este archivo (o pégame el contenido) y yo lo reparto en los ficheros de cada categoría y hago el despliegue.",
     "",
     "Campos:",
@@ -11,7 +12,7 @@
     "precio: precio ACTUAL, solo número con punto decimal (sin € ni comas). Ej: 154.90",
     "precioAntes: precio anterior si hay descuento, mismo formato. Si no hay descuento, pon null (sin comillas).",
     "descripcionCorta: 1-2 frases. Se usa en tarjetas y ficha.",
-    "specs: lista de características técnicas como pares clave/valor. Añade las que tengan sentido para ese producto (mínimo 3-4 recomendado). Para zapatillas: Suela, Amortiguación, Superficie recomendada, Refuerzo lateral. Para ropa: Tejido, Tecnología/Uso, Corte. Para accesorios: Material, Unidades, lo que aplique.",
+    "specs: lista de características técnicas como pares clave/valor. Añade las que tengan sentido para ese producto (mínimo 3-4 recomendado).",
     "afiliadoRed: 'amazon' (de momento es lo único que usamos).",
     "afiliadoAsin: el código ASIN del producto en Amazon (lo sacas de la URL: amazon.es/dp/ASIN/...).",
     "destacado: true o false (sin comillas). true = aparece en la sección 'Destacados' de la home. Deja false salvo que quieras destacarlo.",
@@ -19,21 +20,78 @@
   ],
   "productos": [
     {
-      "categoria": "zapatillas",
-      "id": "",
-      "nombre": "",
-      "marca": "",
-      "precio": 0,
-      "precioAntes": null,
-      "descripcionCorta": "",
+      "categoria": "palas",
+      "id": "EJEMPLO-nox-at10-genius-tapia",
+      "nombre": "Nox AT10 Genius 12K by Agustín Tapia 2025",
+      "marca": "Nox",
+      "precio": 154.90,
+      "precioAntes": 221.29,
+      "descripcionCorta": "Pala insignia de Nox firmada por Agustín Tapia. Forma diamante orientada a la máxima potencia.",
       "specs": [
-        { "clave": "Suela", "valor": "" },
-        { "clave": "Amortiguación", "valor": "" },
-        { "clave": "Superficie recomendada", "valor": "" },
-        { "clave": "Refuerzo lateral", "valor": "" }
+        { "clave": "Forma", "valor": "Diamante" },
+        { "clave": "Balance", "valor": "Alto" },
+        { "clave": "Núcleo", "valor": "Foam HR3 alta densidad" },
+        { "clave": "Carbono", "valor": "12K" },
+        { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
       ],
       "afiliadoRed": "amazon",
-      "afiliadoAsin": "",
+      "afiliadoAsin": "B0DHT21P3M",
+      "destacado": false,
+      "imagen": ""
+    },
+    {
+      "categoria": "zapatillas",
+      "id": "EJEMPLO-babolat-jet-premura-lebron",
+      "nombre": "Babolat Jet Premura Juan Lebrón Azul",
+      "marca": "Babolat",
+      "precio": 154.80,
+      "precioAntes": null,
+      "descripcionCorta": "Zapatilla signature de Juan Lebrón, pensada para el juego de ataque: estabilidad en cambios de dirección rápidos.",
+      "specs": [
+        { "clave": "Suela", "valor": "Espiga (césped artificial)" },
+        { "clave": "Amortiguación", "valor": "Media-alta" },
+        { "clave": "Superficie recomendada", "valor": "Césped artificial" },
+        { "clave": "Refuerzo lateral", "valor": "Sí, zona de frenada" }
+      ],
+      "afiliadoRed": "amazon",
+      "afiliadoAsin": "B0DTXJXL1N",
+      "destacado": false,
+      "imagen": ""
+    },
+    {
+      "categoria": "ropa",
+      "id": "EJEMPLO-bullpadel-camiseta-chingotto",
+      "nombre": "Bullpadel Camiseta Montse Chingotto Arena Vigore",
+      "marca": "Bullpadel",
+      "precio": 55.34,
+      "precioAntes": null,
+      "descripcionCorta": "Camiseta técnica firmada por Montse Chingotto, tejido transpirable pensado para competición.",
+      "specs": [
+        { "clave": "Tejido", "valor": "Poliéster técnico transpirable" },
+        { "clave": "Tecnología", "valor": "Control de humedad" },
+        { "clave": "Corte", "valor": "Ajustado (fit competición)" }
+      ],
+      "afiliadoRed": "amazon",
+      "afiliadoAsin": "B0GWF9J7DM",
+      "destacado": false,
+      "imagen": ""
+    },
+    {
+      "categoria": "accesorios",
+      "id": "EJEMPLO-wilson-overgrip-pro-60",
+      "nombre": "Wilson Overgrip Pádel Pro, Paquete de 60, Blanco",
+      "marca": "Wilson",
+      "precio": 79.00,
+      "precioAntes": null,
+      "descripcionCorta": "Pack grande de overgrips Wilson en blanco, para quien juega con frecuencia.",
+      "specs": [
+        { "clave": "Material", "valor": "Grip sintético" },
+        { "clave": "Unidades", "valor": "Pack de 60" },
+        { "clave": "Color", "valor": "Blanco" },
+        { "clave": "Tacto", "valor": "Estándar" }
+      ],
+      "afiliadoRed": "amazon",
+      "afiliadoAsin": "B0CD3FHN84",
       "destacado": false,
       "imagen": ""
     }

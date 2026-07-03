@@ -14,5 +14,56 @@
     ],
     "afiliado": { "red": "amazon", "asin": "B0DTXJXL1N" },
     "destacado": true
+  },
+  {
+    "id": "asics-gel-dedicate-8",
+    "nombre": "Asics Gel Dedicate 8",
+    "marca": "Asics",
+    "precio": 63.95,
+    "precioAntes": 74.93,
+    "descripcionCorta": "Uno de los modelos más populares de Asics tanto en hombre como en mujer, equilibrio entre comodidad, agarre y durabilidad.",
+    "specs": [
+      { "clave": "Suela", "valor": "Clay / espiga" },
+      { "clave": "Amortiguación", "valor": "GEL" },
+      { "clave": "Plantilla", "valor": "Ortholite" },
+      { "clave": "Superficie recomendada", "valor": "Césped artificial" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0BNBJJHJ4" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61lpbn-5xCL._AC_SX695_.jpg"
+  },
+  {
+    "id": "babolat-jet-premura-2",
+    "nombre": "Babolat Jet Premura 2",
+    "marca": "Babolat",
+    "precio": 79.95,
+    "precioAntes": 83.90,
+    "descripcionCorta": "Zapatilla reactiva de Babolat, ligera y flexible, con suela desarrollada junto a Michelin para máximo agarre.",
+    "specs": [
+      { "clave": "Suela", "valor": "Michelin" },
+      { "clave": "Peso", "valor": "Reducido (gama reactiva)" },
+      { "clave": "Protección talón", "valor": "Sistema KPRS-X" },
+      { "clave": "Superficie recomendada", "valor": "Césped artificial" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DZ6YV35J" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51xFC3gZepL._AC_SX695_.jpg"
+  },
+  {
+    "id": "adidas-court-spec-padel",
+    "nombre": "Adidas Unisex Adulto Court Spec 2",
+    "marca": "Adidas",
+    "precio": 44.99,
+    "precioAntes": null,
+    "descripcionCorta": "Zapatilla polivalente de Adidas con mediasuela Bounce flexible, buena opción de entrada tanto para pádel recreativo como para tenis, a un precio muy ajustado.",
+    "specs": [
+      { "clave": "Suela", "valor": "Goma, apta para todo tipo de pistas" },
+      { "clave": "Durabilidad", "valor": "Media (gama de acceso)" },
+      { "clave": "Estabilidad", "valor": "Ajuste clásico con cordones, sin refuerzos técnicos específicos de pádel" },
+      { "clave": "Superficie recomendada", "valor": "Multisuperficie (césped artificial, tierra batida, pista dura)" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0C3WKS54S" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71c0F7IkqAL._AC_SY695_.jpg"
   }
 ]

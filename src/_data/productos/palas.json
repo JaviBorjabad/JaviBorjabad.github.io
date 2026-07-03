@@ -66,5 +66,171 @@
     ],
     "afiliado": { "red": "amazon", "asin": "B0DPH3GZGN" },
     "destacado": false
+  },
+  {
+    "id": "adidas-metalbone-2026-ale-galan",
+    "nombre": "Adidas Metalbone 2026 - Ale Galán",
+    "marca": "Adidas",
+    "precio": 249.99,
+    "precioAntes": 390.00,
+    "descripcionCorta": "Pala oficial de Ale Galán para 2026, formato diamante con sistema de pesos ajustables para personalizar balance y potencia.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "EVA Soft Performance" },
+      { "clave": "Carbono", "valor": "16K Aluminizado" },
+      { "clave": "Sistema de personalización", "valor": "Weight & Balance System (hasta 11,2 g)" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FZX2P72Q" },
+    "destacado": true,
+    "imagen": "https://m.media-amazon.com/images/I/618aVyChlaL._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    "id": "nox-at10-genius-18k-tapia-2025",
+    "nombre": "Nox AT10 Genius 18K Alum 2025 - Agustín Tapia",
+    "marca": "Nox",
+    "precio": 169.90,
+    "precioAntes": null,
+    "descripcionCorta": "Pala insignia de Agustín Tapia, número 1 mundial. Forma lágrima orientada a un equilibrio de potencia y control de máximo nivel.",
+    "specs": [
+      { "clave": "Forma", "valor": "Lágrima" },
+      { "clave": "Balance", "valor": "Medio-Alto" },
+      { "clave": "Núcleo", "valor": "MLD Black EVA" },
+      { "clave": "Carbono", "valor": "18K" },
+      { "clave": "Superficie", "valor": "Rough Surface (efectos)" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DHT1DVW1" },
+    "destacado": true,
+    "imagen": "https://m.media-amazon.com/images/I/61SxSXzw4UL._AC_UL640_QL65_.jpg"
+  },
+  {
+    "id": "nox-ml10-ventus-control-3k-2026",
+    "nombre": "Nox ML10 Ventus Control 3K 2026 - Miguel Lamperti",
+    "marca": "Nox",
+    "precio": 246.95,
+    "precioAntes": null,
+    "descripcionCorta": "Pala híbrida del jugador Miguel Lamperti, combina control, potencia y velocidad con tecnología de goma HR3.",
+    "specs": [
+      { "clave": "Forma", "valor": "Híbrida" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Núcleo", "valor": "Goma HR3" },
+      { "clave": "Carbono", "valor": "3K" },
+      { "clave": "Acabado", "valor": "Pintura fotocromática" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0G1864GVC" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/81G0IEpWdeL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-vertex-04-2025",
+    "nombre": "Bullpadel Vertex 04 2025",
+    "marca": "Bullpadel",
+    "precio": 159.95,
+    "precioAntes": null,
+    "descripcionCorta": "Gama Vertex de Bullpadel, referencia en control con marco CarbonTube para estabilidad y precisión en el golpeo.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Medio-Alto" },
+      { "clave": "Núcleo", "valor": "Multieva doble densidad" },
+      { "clave": "Marco", "valor": "CarbonTube" },
+      { "clave": "Sistema", "valor": "Grip Custom Weight" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DHZJL6FJ" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61P1ab1OS6L._AC_SX679_.jpg"
+  },
+  {
+    "id": "head-coello-pro-2025",
+    "nombre": "Head Coello Pro 2025 - Arturo Coello",
+    "marca": "Head",
+    "precio": 174.95,
+    "precioAntes": 182.95,
+    "descripcionCorta": "Pala del número 1 mundial Arturo Coello, formato diamante con balance alto diseñada para atacar sin concesiones.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "Power Foam" },
+      { "clave": "Carbono", "valor": "100%" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DT8C3Y5T" },
+    "destacado": true,
+    "imagen": "https://m.media-amazon.com/images/I/71Q-K2XiBHL._AC_SX679_.jpg"
+  },
+  {
+    "id": "babolat-viper-juan-lebron-3",
+    "nombre": "Babolat Viper Juan Lebrón 3.0",
+    "marca": "Babolat",
+    "precio": 224.95,
+    "precioAntes": null,
+    "descripcionCorta": "Pala signature de Juan Lebrón, concebida especialmente para jugadores ofensivos que buscan definir puntos en la red.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "EVA alta densidad" },
+      { "clave": "Marco", "valor": "Carbono" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0G4XYVXPJ" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61IpT8EbVCL._AC_SX679_.jpg"
+  },
+  {
+    "id": "siux-electra-pro-stupa",
+    "nombre": "Siux Electra Stupa Pro ST4",
+    "marca": "Siux",
+    "precio": 145.00,
+    "precioAntes": 232.90,
+    "descripcionCorta": "Pala del argentino Franco Stupa, forma híbrida que se adapta a distintos estilos de juego, construida 100% en carbono.",
+    "specs": [
+      { "clave": "Forma", "valor": "Híbrida" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Núcleo", "valor": "Goma EVA" },
+      { "clave": "Carbono", "valor": "100%" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DXDD2BZ8" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61PLw+HrB5L._AC_SX679_.jpg"
+  },
+  {
+    "id": "adidas-cross-it-light-2026",
+    "nombre": "Adidas Cross It Light 2026 - Martita Ortega",
+    "marca": "Adidas",
+    "precio": 259.95,
+    "precioAntes": 300.00,
+    "descripcionCorta": "Pala ligera y manejable asociada a Martita Ortega, pensada para jugadoras avanzadas que priorizan comodidad y velocidad en la red.",
+    "specs": [
+      { "clave": "Forma", "valor": "Redonda" },
+      { "clave": "Balance", "valor": "Bajo-Medio" },
+      { "clave": "Núcleo", "valor": "EVA Soft Performance" },
+      { "clave": "Carbono", "valor": "24K Aluminizado" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FZX2FFFX" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61mYg3n4O4L._AC_SX679_.jpg"
+  },
+  {
+    "id": "nox-at10-genius-18k-tapia-2024",
+    "nombre": "Nox AT10 Genius 18K Alum 2024 - Agustín Tapia",
+    "marca": "Nox",
+    "precio": 169.90,
+    "precioAntes": 199.90,
+    "descripcionCorta": "Edición 2024 de la AT10 de Tapia, muy demandada en fase de descuento por su relación prestaciones-precio frente a la versión actual.",
+    "specs": [
+      { "clave": "Forma", "valor": "Lágrima" },
+      { "clave": "Balance", "valor": "Medio-Alto" },
+      { "clave": "Núcleo", "valor": "MLD Black EVA" },
+      { "clave": "Carbono", "valor": "18K" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0CLTXSBZ1" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51hEvGjbqML._AC_SY300_SX300_QL70_ML2_.jpg"
   }
 ]
