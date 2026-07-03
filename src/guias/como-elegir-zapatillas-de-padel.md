@@ -30,4 +30,4 @@ Un ajuste ceñido (tipo "cage" en algunos modelos) mejora la estabilidad en los 
 
 ## Resumen rápido
 
-Para césped artificial (la superficie más común), busca suela de espiga con buena amortiguación en el talón — es el caso de modelos como la <a href="/zapatillas/gel-padel-pro/">Asics Gel Padel Pro</a>. Si todavía no sabes en qué superficie vas a jugar la mayoría de partidos, una suela mixta como la de la <a href="/zapatillas/slam-pro/">Joma Slam Pro</a> es la opción más segura para empezar.
+Para césped artificial (la superficie más común), busca suela de espiga con buena amortiguación — es el caso de modelos como la <a href="/zapatillas/jet-premura-lebron/">Babolat Jet Premura Juan Lebrón</a>. Si todavía no sabes en qué superficie vas a jugar la mayoría de partidos, prioriza siempre la suela de espiga sobre la mixta si tu club tiene césped artificial, que es lo más habitual en España.

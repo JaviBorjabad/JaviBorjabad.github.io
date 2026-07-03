@@ -1,53 +1,70 @@
 [
   {
-    "id": "vertex-04",
-    "nombre": "Bullpadel Vertex 04",
-    "marca": "Bullpadel",
-    "precio": 289.95,
-    "precioAntes": 339.95,
-    "descripcionCorta": "Pala de forma diamante para nivel avanzado/competición. Balance alto orientado a potencia, con núcleo de EVA de alta densidad que prioriza pegada sobre control.",
+    "id": "at10-genius-tapia",
+    "nombre": "Nox AT10 Genius 12K by Agustín Tapia 2025",
+    "marca": "Nox",
+    "precio": 154.90,
+    "precioAntes": 221.29,
+    "descripcionCorta": "Pala insignia de Nox firmada por Agustín Tapia. Forma diamante orientada a la máxima potencia, con carbono 12K y núcleo de alta densidad — pensada para jugadores de nivel avanzado o competición que ya dominan la técnica de golpeo.",
     "specs": [
       { "clave": "Forma", "valor": "Diamante" },
       { "clave": "Balance", "valor": "Alto" },
-      { "clave": "Núcleo", "valor": "Foam EVA alta densidad" },
-      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" },
-      { "clave": "Peso", "valor": "355-375 g" }
+      { "clave": "Núcleo", "valor": "Foam HR3 alta densidad" },
+      { "clave": "Carbono", "valor": "12K" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
     ],
-    "afiliado": { "red": "awin", "urlDestino": "https://www.padelpoint.es/ejemplo/bullpadel-vertex-04" },
+    "afiliado": { "red": "amazon", "asin": "B0DHT21P3M" },
     "destacado": true
   },
   {
-    "id": "speed-pro",
-    "nombre": "Head Speed Pro",
-    "marca": "Head",
-    "precio": 259.0,
-    "precioAntes": null,
-    "descripcionCorta": "Forma híbrida (lágrima) que equilibra control y potencia. Buena opción de transición para jugadores de nivel intermedio que buscan subir de nivel sin perder manejabilidad.",
+    "id": "ml10-pro-cup-luxury",
+    "nombre": "Nox ML10 Pro Cup Luxury Series 23",
+    "marca": "Nox",
+    "precio": 129.90,
+    "precioAntes": 139.68,
+    "descripcionCorta": "La otra gama alta de Nox, en edición Luxury Series 23. Diamante de balance alto para jugadores que buscan pegada sin renunciar a la construcción premium de la serie Pro Cup.",
     "specs": [
-      { "clave": "Forma", "valor": "Híbrida (lágrima)" },
-      { "clave": "Balance", "valor": "Medio" },
-      { "clave": "Núcleo", "valor": "Foam EVA Soft" },
-      { "clave": "Nivel recomendado", "valor": "Intermedio / Avanzado" },
-      { "clave": "Peso", "valor": "350-370 g" }
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "Foam HR3" },
+      { "clave": "Edición", "valor": "Luxury Series 23" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
     ],
-    "afiliado": { "red": "awin", "urlDestino": "https://www.padelpoint.es/ejemplo/head-speed-pro" },
+    "afiliado": { "red": "amazon", "asin": "B0C6Y7G879" },
     "destacado": false
   },
   {
-    "id": "metalbone",
-    "nombre": "Adidas Metalbone",
+    "id": "metalbone-ale-galan",
+    "nombre": "Adidas Metalbone 3.3 Ale Galán",
     "marca": "Adidas",
-    "precio": 299.95,
-    "precioAntes": 329.95,
-    "descripcionCorta": "Diamante de control con tacto duro, pensada para jugadores que priorizan precisión en el golpeo por encima de la potencia bruta.",
+    "precio": 169.99,
+    "precioAntes": null,
+    "descripcionCorta": "Pala firmada por Ale Galán. Forma diamante con núcleo de goma EVA Soft Performance (más blando de lo habitual en una diamante) y fibra de carbono Aluminized 2 a 1, buscando un punto intermedio entre la pegada de la forma diamante y algo más de control en el núcleo.",
     "specs": [
       { "clave": "Forma", "valor": "Diamante" },
-      { "clave": "Balance", "valor": "Medio-alto" },
-      { "clave": "Núcleo", "valor": "Foam multieva" },
+      { "clave": "Núcleo", "valor": "Goma EVA Soft Performance" },
+      { "clave": "Carbono", "valor": "Fibra Aluminized 2 a 1" },
       { "clave": "Nivel recomendado", "valor": "Avanzado" },
-      { "clave": "Peso", "valor": "360-375 g" }
+      { "clave": "Colores", "valor": "Negro / Rojo" }
     ],
-    "afiliado": { "red": "amazon", "asin": "B0EXPALA03" },
+    "afiliado": { "red": "amazon", "asin": "B0CNWH1K6H" },
+    "destacado": false
+  },
+  {
+    "id": "viper-lebron",
+    "nombre": "Babolat Viper Juan Lebrón 2025",
+    "marca": "Babolat",
+    "precio": 174.95,
+    "precioAntes": 190.16,
+    "descripcionCorta": "Pala de Babolat firmada por Juan Lebrón. Forma diamante orientada al juego de ataque, pensada para jugadores avanzados que priorizan la potencia en el remate.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "Foam alta densidad" },
+      { "clave": "Edición", "valor": "2025" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Competición" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DPH3GZGN" },
     "destacado": false
   }
 ]

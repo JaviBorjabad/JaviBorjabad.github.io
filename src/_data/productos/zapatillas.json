@@ -1,50 +1,18 @@
 [
   {
-    "id": "gel-padel-pro",
-    "nombre": "Asics Gel Padel Pro",
-    "marca": "Asics",
-    "precio": 99.95,
-    "precioAntes": 149.95,
-    "descripcionCorta": "Zapatilla específica de pádel con suela de espiga para pistas de césped artificial. Amortiguación Gel en talón, pensada para jugadores que hacen muchos desplazamientos laterales.",
+    "id": "jet-premura-lebron",
+    "nombre": "Babolat Jet Premura Juan Lebrón Azul",
+    "marca": "Babolat",
+    "precio": 154.80,
+    "precioAntes": null,
+    "descripcionCorta": "Zapatilla signature de Juan Lebrón, en azul. Pensada para el juego de ataque de Lebrón: estabilidad en cambios de dirección rápidos y buena sujeción en las frenadas.",
     "specs": [
       { "clave": "Suela", "valor": "Espiga (césped artificial)" },
-      { "clave": "Amortiguación", "valor": "Gel en talón" },
+      { "clave": "Amortiguación", "valor": "Media-alta" },
       { "clave": "Superficie recomendada", "valor": "Césped artificial" },
-      { "clave": "Refuerzo lateral", "valor": "Sí, zona de frenada" }
+      { "clave": "Color", "valor": "Azul" }
     ],
-    "afiliado": { "red": "amazon", "asin": "B0EXZAPA01" },
+    "afiliado": { "red": "amazon", "asin": "B0DTXJXL1N" },
     "destacado": true
-  },
-  {
-    "id": "slam-pro",
-    "nombre": "Joma Slam Pro",
-    "marca": "Joma",
-    "precio": 69.95,
-    "precioAntes": null,
-    "descripcionCorta": "Zapatilla polivalente con buena relación calidad-precio, suela mixta apta para pista dura y césped artificial. Buena entrada de gama para jugadores que empiezan.",
-    "specs": [
-      { "clave": "Suela", "valor": "Mixta (dura + césped)" },
-      { "clave": "Amortiguación", "valor": "EVA estándar" },
-      { "clave": "Superficie recomendada", "valor": "Multisuperficie" },
-      { "clave": "Refuerzo lateral", "valor": "Básico" }
-    ],
-    "afiliado": { "red": "amazon", "asin": "B0EXZAPA02" },
-    "destacado": false
-  },
-  {
-    "id": "zoom-vapor-cage",
-    "nombre": "Nike Zoom Vapor Cage",
-    "marca": "Nike",
-    "precio": 129.95,
-    "precioAntes": 149.95,
-    "descripcionCorta": "Modelo cruzado entre tenis y pádel con suela de espiga reforzada. Ajuste ceñido tipo \"cage\" para mayor estabilidad en cambios de dirección rápidos.",
-    "specs": [
-      { "clave": "Suela", "valor": "Espiga reforzada" },
-      { "clave": "Amortiguación", "valor": "Zoom Air" },
-      { "clave": "Superficie recomendada", "valor": "Césped artificial" },
-      { "clave": "Refuerzo lateral", "valor": "Sí, cage de estabilidad" }
-    ],
-    "afiliado": { "red": "amazon", "asin": "B0EXZAPA03" },
-    "destacado": false
   }
 ]

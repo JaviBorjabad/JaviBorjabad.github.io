@@ -1,47 +1,18 @@
 [
   {
-    "id": "protector-pala-nox",
-    "nombre": "Protector de pala Nox",
-    "marca": "Nox",
-    "precio": 9.95,
-    "precioAntes": null,
-    "descripcionCorta": "Protector de borde adhesivo que reduce el desgaste del marco en los golpes bajos y globos. Recomendado para jugadores con estilo agresivo cerca de la pared.",
-    "specs": [
-      { "clave": "Compatibilidad", "valor": "Universal (recortable)" },
-      { "clave": "Material", "valor": "Goma adhesiva reforzada" },
-      { "clave": "Vida útil estimada", "valor": "6-12 meses según uso" }
-    ],
-    "afiliado": { "red": "awin", "urlDestino": "https://www.padelpoint.es/ejemplo/protector-pala-nox" },
-    "destacado": true
-  },
-  {
-    "id": "munequera-head",
-    "nombre": "Muñequera antideslizante Head",
-    "marca": "Head",
-    "precio": 7.5,
-    "precioAntes": null,
-    "descripcionCorta": "Muñequera de rizo absorbente para controlar el sudor en partidos largos. Pack de 2 unidades, ajuste elástico universal.",
-    "specs": [
-      { "clave": "Material", "valor": "Rizo de algodón" },
-      { "clave": "Unidades", "valor": "Pack de 2" },
-      { "clave": "Ajuste", "valor": "Elástico universal" }
-    ],
-    "afiliado": { "red": "amazon", "asin": "B0EXACC02" },
-    "destacado": false
-  },
-  {
-    "id": "grip-wilson-overgrip",
-    "nombre": "Grip Wilson Pro Overgrip",
+    "id": "overgrip-wilson-pro-60",
+    "nombre": "Wilson Overgrip Pádel Pro, Paquete de 60, Blanco",
     "marca": "Wilson",
-    "precio": 12.95,
-    "precioAntes": 19.95,
-    "descripcionCorta": "Overgrip de tacto seco con buena absorción de humedad, pack de 3. La elección más consistente para no perder agarre en partidos largos o con calor.",
+    "precio": 79.00,
+    "precioAntes": null,
+    "descripcionCorta": "Pack grande de overgrips Wilson en blanco — pensado para quien juega con frecuencia y no quiere quedarse sin grip a mitad de temporada.",
     "specs": [
-      { "clave": "Tacto", "valor": "Seco" },
-      { "clave": "Unidades", "valor": "Pack de 3" },
-      { "clave": "Grosor", "valor": "0.6 mm" }
+      { "clave": "Material", "valor": "Grip sintético" },
+      { "clave": "Unidades", "valor": "Pack de 60" },
+      { "clave": "Color", "valor": "Blanco" },
+      { "clave": "Tacto", "valor": "Estándar" }
     ],
-    "afiliado": { "red": "amazon", "asin": "B0EXACC03" },
-    "destacado": false
+    "afiliado": { "red": "amazon", "asin": "B0CD3FHN84" },
+    "destacado": true
   }
 ]

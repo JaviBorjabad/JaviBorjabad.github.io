@@ -1,0 +1,39 @@
+{
+  "_instrucciones": [
+    "Copia el bloque de dentro de 'productos' tantas veces como productos quieras añadir (incluida la coma entre bloques).",
+    "Cuando termines, mándame este archivo (o pégame el contenido) y yo lo reparto en los ficheros de cada categoría y hago el despliegue.",
+    "",
+    "Campos:",
+    "categoria: una de estas 4 palabras exactas -> palas | zapatillas | ropa | accesorios",
+    "id: identificador para la URL. Solo minúsculas, números y guiones, sin espacios ni tildes. Ej: 'nox-at10-genius-tapia'. Debe ser único.",
+    "nombre: nombre completo del producto tal cual lo quieres ver en la web.",
+    "marca: marca del producto.",
+    "precio: precio ACTUAL, solo número con punto decimal (sin € ni comas). Ej: 154.90",
+    "precioAntes: precio anterior si hay descuento, mismo formato. Si no hay descuento, pon null (sin comillas).",
+    "descripcionCorta: 1-2 frases. Se usa en tarjetas y ficha.",
+    "specs: lista de características técnicas como pares clave/valor. Añade las que tengan sentido para ese producto (mínimo 3-4 recomendado). Para zapatillas: Suela, Amortiguación, Superficie recomendada, Refuerzo lateral. Para ropa: Tejido, Tecnología/Uso, Corte. Para accesorios: Material, Unidades, lo que aplique.",
+    "afiliadoRed: 'amazon' (de momento es lo único que usamos).",
+    "afiliadoAsin: el código ASIN del producto en Amazon (lo sacas de la URL: amazon.es/dp/ASIN/...).",
+    "destacado: true o false (sin comillas). true = aparece en la sección 'Destacados' de la home. Deja false salvo que quieras destacarlo."
+  ],
+  "productos": [
+    {
+      "categoria": "zapatillas",
+      "id": "",
+      "nombre": "",
+      "marca": "",
+      "precio": 0,
+      "precioAntes": null,
+      "descripcionCorta": "",
+      "specs": [
+        { "clave": "Suela", "valor": "" },
+        { "clave": "Amortiguación", "valor": "" },
+        { "clave": "Superficie recomendada", "valor": "" },
+        { "clave": "Refuerzo lateral", "valor": "" }
+      ],
+      "afiliadoRed": "amazon",
+      "afiliadoAsin": "",
+      "destacado": false
+    }
+  ]
+}

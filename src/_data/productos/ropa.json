@@ -1,47 +1,34 @@
 [
   {
-    "id": "camiseta-tecnica-bullpadel",
-    "nombre": "Camiseta técnica Bullpadel Pro",
+    "id": "camiseta-chingotto-bullpadel",
+    "nombre": "Bullpadel Camiseta Montse Chingotto Arena Vigore",
     "marca": "Bullpadel",
-    "precio": 34.95,
+    "precio": 55.34,
     "precioAntes": null,
-    "descripcionCorta": "Camiseta de competición en tejido transpirable con tecnología de secado rápido. Costuras planas para evitar rozaduras en golpeo repetido.",
+    "descripcionCorta": "Camiseta técnica firmada por Montse Chingotto, en acabado jaspeado \"Arena Vigore\". Tejido transpirable pensado para competición, con el corte ajustado propio de la gama profesional de Bullpadel.",
     "specs": [
       { "clave": "Tejido", "valor": "Poliéster técnico transpirable" },
-      { "clave": "Tecnología", "valor": "Secado rápido / control de humedad" },
-      { "clave": "Corte", "valor": "Ajustado (fit competición)" }
+      { "clave": "Tecnología", "valor": "Control de humedad" },
+      { "clave": "Corte", "valor": "Ajustado (fit competición)" },
+      { "clave": "Colección", "valor": "Firmada por Montse Chingotto" }
     ],
-    "afiliado": { "red": "amazon", "asin": "B0EXROPA01" },
+    "afiliado": { "red": "amazon", "asin": "B0GWF9J7DM" },
     "destacado": true
   },
   {
-    "id": "short-nox-team",
-    "nombre": "Short Nox Team",
+    "id": "camiseta-tapia-nox",
+    "nombre": "Nox Camiseta Sponsors Agustín Tapia AT10",
     "marca": "Nox",
-    "precio": 29.95,
-    "precioAntes": 44.95,
-    "descripcionCorta": "Short con bolsillo porta-pelotas integrado y cintura elástica con cordón de ajuste. Tejido ligero pensado para sesiones largas.",
-    "specs": [
-      { "clave": "Tejido", "valor": "Poliéster elástico" },
-      { "clave": "Bolsillos", "valor": "Porta-pelotas integrado" },
-      { "clave": "Cintura", "valor": "Elástica con cordón" }
-    ],
-    "afiliado": { "red": "amazon", "asin": "B0EXROPA02" },
-    "destacado": false
-  },
-  {
-    "id": "polo-tecnico-head",
-    "nombre": "Polo técnico Head Club",
-    "marca": "Head",
-    "precio": 39.95,
+    "precio": 49.31,
     "precioAntes": null,
-    "descripcionCorta": "Polo de mezcla algodón-poliéster para uso en pista y calle. Menos técnico que una camiseta de competición pura, pero más versátil fuera de la pista.",
+    "descripcionCorta": "Camiseta de la colección de patrocinadores de Agustín Tapia. Tejido técnico transpirable con el diseño oficial de la equipación de Nox.",
     "specs": [
-      { "clave": "Tejido", "valor": "65% poliéster / 35% algodón" },
-      { "clave": "Uso recomendado", "valor": "Pista y calle" },
-      { "clave": "Cuello", "valor": "Polo con botones" }
+      { "clave": "Tejido", "valor": "Poliéster técnico transpirable" },
+      { "clave": "Tecnología", "valor": "Control de humedad" },
+      { "clave": "Corte", "valor": "Regular" },
+      { "clave": "Colección", "valor": "Firmada por Agustín Tapia" }
     ],
-    "afiliado": { "red": "amazon", "asin": "B0EXROPA03" },
+    "afiliado": { "red": "amazon", "asin": "B0DDMXS84P" },
     "destacado": false
   }
 ]
