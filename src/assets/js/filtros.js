@@ -5,6 +5,7 @@
     if (!barra || !grid) return;
 
     var tarjetas = Array.prototype.slice.call(grid.querySelectorAll("[data-producto-card]"));
+    var ordenOriginal = tarjetas.slice();
     var vacio = document.querySelector("[data-filtros-vacio]");
 
     var buscador = barra.querySelector("[data-filtro-buscador]");
@@ -14,6 +15,7 @@
     var precioMin = barra.querySelector("[data-filtro-precio-min]");
     var precioMax = barra.querySelector("[data-filtro-precio-max]");
     var selOrden = barra.querySelector("[data-filtro-orden]");
+    var botonReset = barra.querySelector("[data-filtro-reset]");
 
     function aplicarFiltros() {
       var texto = buscador ? buscador.value.trim().toLowerCase() : "";
@@ -61,6 +63,20 @@
       });
     }
 
+    function restablecer() {
+      if (buscador) buscador.value = "";
+      if (selMarca) selMarca.value = "";
+      if (selForma) selForma.value = "";
+      if (selNivel) selNivel.value = "";
+      if (precioMin) precioMin.value = "";
+      if (precioMax) precioMax.value = "";
+      if (selOrden) selOrden.value = "";
+      ordenOriginal.forEach(function (card) {
+        grid.appendChild(card);
+      });
+      aplicarFiltros();
+    }
+
     [buscador, selMarca, selForma, selNivel, precioMin, precioMax].forEach(function (el) {
       if (el) el.addEventListener("input", aplicarFiltros);
     });
@@ -68,6 +84,9 @@
       selOrden.addEventListener("change", function () {
         aplicarOrden();
       });
+    }
+    if (botonReset) {
+      botonReset.addEventListener("click", restablecer);
     }
   });
 })();
