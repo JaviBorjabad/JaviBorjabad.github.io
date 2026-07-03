@@ -95,19 +95,8 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
 /* ---------- Header ---------- */
 .site-header {
   position: relative;
-  overflow: hidden;
-  background: var(--blanco);
+  background: #EAF5EE;
   border-bottom: 1px solid var(--borde);
-}
-.site-header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 220'%3E%3Crect width='800' height='220' fill='%23CFEAD9'/%3E%3Crect x='50' y='30' width='700' height='160' fill='none' stroke='%23FFFFFF' stroke-width='4'/%3E%3Cline x1='400' y1='30' x2='400' y2='190' stroke='%23FFFFFF' stroke-width='6'/%3E%3Cline x1='225' y1='30' x2='225' y2='190' stroke='%23FFFFFF' stroke-width='3'/%3E%3Cline x1='575' y1='30' x2='575' y2='190' stroke='%23FFFFFF' stroke-width='3'/%3E%3Cline x1='50' y1='110' x2='225' y2='110' stroke='%23FFFFFF' stroke-width='3'/%3E%3Cline x1='575' y1='110' x2='750' y2='110' stroke='%23FFFFFF' stroke-width='3'/%3E%3C/svg%3E");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.4;
-  z-index: 0;
 }
 .site-header__inner {
   position: relative;
@@ -220,6 +209,38 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
   font-size: 1.05rem;
 }
 
+/* ---------- Barra de filtros ---------- */
+.filtros-barra {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 24px 0 8px;
+  padding: 16px;
+  background: var(--gris-100);
+  border-radius: var(--radio);
+}
+.filtros-buscador,
+.filtros-select,
+.filtros-precio-input {
+  font-family: var(--fuente);
+  font-size: 0.88rem;
+  padding: 10px 12px;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  background: var(--blanco);
+  color: var(--negro);
+}
+.filtros-buscador { flex: 1 1 220px; min-width: 180px; }
+.filtros-select { flex: 0 1 180px; min-width: 140px; }
+.filtros-precio { display: flex; align-items: center; gap: 6px; color: var(--gris-500); }
+.filtros-precio-input { width: 100px; }
+.filtros-sin-resultados {
+  text-align: center;
+  color: var(--gris-500);
+  padding: 48px 20px;
+}
+
 /* ---------- Grid de productos ---------- */
 .productos-grid {
   display: grid;
@@ -235,6 +256,7 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
   display: flex;
   flex-direction: column;
 }
+.producto-card[hidden] { display: none; }
 .producto-card__imagen-link { display: block; }
 .producto-card__imagen {
   position: relative;

@@ -4,10 +4,16 @@ titulo: Palas de pádel
 descripcion: Comparativa de palas de pádel por forma, balance y núcleo. Diamante, lágrima o redonda según tu nivel de juego.
 permalink: /palas/
 categoriaComparador: palas
+conFiltros: true
 heroTitulo: Elige tu pala con criterio
 heroTexto: El pádel es ya el deporte de raqueta con más licencias en España. En Padel Selecto analizamos cada pala por su forma, balance y núcleo — sin marketing, solo las specs que necesitas para decidir.
 ---
 {% from "partials/producto-card.njk" import card %}
+{% set marcas = productos.palas | unicos("marca") %}
+{% set formas = productos.palas | unicosSpec("Forma") %}
+{% set niveles = productos.palas | unicosSpec("Nivel recomendado") %}
+{% set mostrarPrecio = true %}
+{% set mostrarOrden = true %}
 
 <section class="contenedor" style="padding-top: 24px;">
   {% include "partials/categoria-hero.njk" %}
@@ -18,6 +24,7 @@ heroTexto: El pádel es ya el deporte de raqueta con más licencias en España. 
   <p>La forma de la pala determina el compromiso entre control y potencia: diamante favorece la pegada, redonda favorece el control, e híbrida (lágrima) busca un punto intermedio. El balance y el núcleo afinan esa decisión según tu nivel. Si no tienes claro por dónde empezar, lee nuestra <a href="/guias/como-elegir-pala-de-padel/">guía para elegir pala de pádel</a> o la comparativa de <a href="/guias/pala-control-vs-potencia/">pala de control vs pala de potencia</a>.</p>
 
   {% include "partials/aviso-afiliados.njk" %}
+  {% include "partials/filtros.njk" %}
 
   <div class="productos-grid">
     {% for producto in productos.palas %}

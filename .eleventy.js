@@ -23,6 +23,29 @@ module.exports = function (eleventyConfig) {
     return array.slice(0, n);
   });
 
+  eleventyConfig.addFilter("specValor", (specs, clave) => {
+    if (!Array.isArray(specs)) return "";
+    const encontrada = specs.find((s) => s.clave === clave);
+    return encontrada ? encontrada.valor : "";
+  });
+
+  eleventyConfig.addFilter("unicos", (productos, propiedad) => {
+    if (!Array.isArray(productos)) return [];
+    const valores = productos
+      .map((p) => p[propiedad])
+      .filter((v) => v !== undefined && v !== null && v !== "");
+    return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
+  });
+
+  eleventyConfig.addFilter("unicosSpec", (productos, clave) => {
+    if (!Array.isArray(productos)) return [];
+    const valores = productos
+      .map((p) => (p.specs || []).find((s) => s.clave === clave))
+      .filter(Boolean)
+      .map((s) => s.valor);
+    return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
+  });
+
   return {
     dir: {
       input: "src",

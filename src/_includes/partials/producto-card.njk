@@ -2,7 +2,14 @@
 
 {% macro card(producto, categoria, afiliados) %}
 {% set cat = categoria or producto.categoria %}
-<article class="producto-card">
+<article class="producto-card"
+  data-producto-card
+  data-nombre="{{ producto.nombre | lower }}"
+  data-marca="{{ producto.marca }}"
+  data-precio="{{ producto.precio }}"
+  data-forma="{{ producto.specs | specValor('Forma') }}"
+  data-nivel="{{ producto.specs | specValor('Nivel recomendado') }}"
+>
   <a href="/{{ cat }}/{{ producto.id }}/" class="producto-card__imagen-link">
     <div class="producto-card__imagen producto-card__imagen--{{ cat }}{% if producto.imagen %} producto-card__imagen--foto{% endif %}">
       {% if producto.precioAntes %}

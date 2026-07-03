@@ -4,10 +4,14 @@ titulo: Zapatillas de pádel
 descripcion: Comparativa de zapatillas de pádel por tipo de suela, amortiguación y superficie recomendada.
 permalink: /zapatillas/
 categoriaComparador: zapatillas
+conFiltros: true
 heroTitulo: Pisa fuerte en cada punto
 heroTexto: El calzado específico de pádel marca la diferencia en cada frenada y cambio de dirección. Comparamos suela, amortiguación y superficie recomendada de cada modelo.
 ---
 {% from "partials/producto-card.njk" import card %}
+{% set marcas = productos.zapatillas | unicos("marca") %}
+{% set mostrarPrecio = true %}
+{% set mostrarOrden = true %}
 
 <section class="contenedor" style="padding-top: 24px;">
   {% include "partials/categoria-hero.njk" %}
@@ -18,6 +22,7 @@ heroTexto: El calzado específico de pádel marca la diferencia en cada frenada 
   <p>La suela es el factor técnico más relevante: espiga para césped artificial, mixta para multisuperficie. La amortiguación y el refuerzo lateral condicionan la respuesta en cambios de dirección rápidos, algo constante en pádel. Más detalle en nuestra <a href="/guias/como-elegir-zapatillas-de-padel/">guía para elegir zapatillas de pádel</a>.</p>
 
   {% include "partials/aviso-afiliados.njk" %}
+  {% include "partials/filtros.njk" %}
 
   <div class="productos-grid">
     {% for producto in productos.zapatillas %}

@@ -1,0 +1,41 @@
+<div class="filtros-barra" data-filtros>
+  <input type="search" class="filtros-buscador" data-filtro-buscador placeholder="Buscar por nombre o marca…" aria-label="Buscar producto">
+
+  {% if marcas %}
+    <select class="filtros-select" data-filtro-marca aria-label="Filtrar por marca">
+      <option value="">Todas las marcas</option>
+      {% for m in marcas %}<option value="{{ m }}">{{ m }}</option>{% endfor %}
+    </select>
+  {% endif %}
+
+  {% if formas %}
+    <select class="filtros-select" data-filtro-forma aria-label="Filtrar por forma">
+      <option value="">Todas las formas</option>
+      {% for f in formas %}<option value="{{ f }}">{{ f }}</option>{% endfor %}
+    </select>
+  {% endif %}
+
+  {% if niveles %}
+    <select class="filtros-select" data-filtro-nivel aria-label="Filtrar por nivel">
+      <option value="">Todos los niveles</option>
+      {% for n in niveles %}<option value="{{ n }}">{{ n }}</option>{% endfor %}
+    </select>
+  {% endif %}
+
+  {% if mostrarPrecio %}
+    <div class="filtros-precio">
+      <input type="number" inputmode="decimal" class="filtros-precio-input" data-filtro-precio-min placeholder="Precio mín." aria-label="Precio mínimo">
+      <span aria-hidden="true">–</span>
+      <input type="number" inputmode="decimal" class="filtros-precio-input" data-filtro-precio-max placeholder="Precio máx." aria-label="Precio máximo">
+    </div>
+  {% endif %}
+
+  {% if mostrarOrden %}
+    <select class="filtros-select" data-filtro-orden aria-label="Ordenar por precio">
+      <option value="">Ordenar por precio</option>
+      <option value="precio-asc">Precio: menor a mayor</option>
+      <option value="precio-desc">Precio: mayor a menor</option>
+    </select>
+  {% endif %}
+</div>
+<p class="filtros-sin-resultados" data-filtros-vacio hidden>No hay productos que coincidan con estos filtros.</p>
