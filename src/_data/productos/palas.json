@@ -634,5 +634,311 @@
     },
     "destacado": false,
     "imagen": "https://m.media-amazon.com/images/I/51aiI24dD9L._AC_SX679_.jpg"
+  },
+  {
+    "id": "head-evo-speed",
+    "nombre": "HEAD EVO Speed",
+    "marca": "Head",
+    "precio": 64.85,
+    "precioAntes": 90.0,
+    "descripcionCorta": "Pala de iniciación de Head con forma de lágrima oversize y punto dulce amplio. Ligera y de balance bajo, pensada para aprender con comodidad y buena salida de bola gracias a su tecnología Innegra.",
+    "specs": [
+      { "clave": "Forma", "valor": "Lágrima" },
+      { "clave": "Balance", "valor": "Bajo" },
+      { "clave": "Núcleo", "valor": "Soft Foam" },
+      { "clave": "Carbono", "valor": "Sin carbono (caras de fibra de vidrio, tecnología Innegra)" },
+      { "clave": "Nivel recomendado", "valor": "Iniciación" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DNTTDKKB" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/616ddYe+QRL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-vertex-04-comfort",
+    "nombre": "Bullpadel Vertex 04 Comfort",
+    "marca": "Bullpadel",
+    "precio": 109.95,
+    "precioAntes": 127.9,
+    "descripcionCorta": "Versión Comfort de la Vertex 04, pala elegida por Martín Di Nenno. Forma diamante y balance alto para máxima potencia, con materiales pensados para dar un plus de confort respecto a la versión estándar.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "Multieva (doble densidad)" },
+      { "clave": "Carbono", "valor": "Marco CarbonTube 100% carbono; caras Fibrix (fibra de vidrio + carbono)" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0CL6PJG3R" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61eDyAYKidL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-impulse-pwr-2026",
+    "nombre": "Bullpadel Impulse PWR 2026",
+    "marca": "Bullpadel",
+    "precio": 65.0,
+    "precioAntes": 69.0,
+    "descripcionCorta": "Pala de gama media de Bullpadel con forma de diamante y balance muy alto, pensada para jugadores de nivel medio-avanzado que buscan potencia ofensiva a un precio accesible.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Muy alto" },
+      { "clave": "Núcleo", "valor": "SoftEva" },
+      { "clave": "Carbono", "valor": "Marco CarbonTube 100% carbono; caras de fibra de vidrio Polyglass (sin carbono en caras)" },
+      { "clave": "Nivel recomendado", "valor": "Intermedio / Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0GLHT3Y8N" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61wRKt+blEL._AC_SX679_.jpg"
+  },
+  {
+    "id": "adidas-metalbone-carbon-ctrl-3-3",
+    "nombre": "Adidas Metalbone Carbon Ctrl 3.3",
+    "marca": "Adidas",
+    "precio": 139.95,
+    "precioAntes": 260.0,
+    "descripcionCorta": "Versión de control de la gama Metalbone, usada por Pol Hernández. Forma redonda pensada para maximizar la manejabilidad y el control sin renunciar del todo a la potencia.",
+    "specs": [
+      { "clave": "Forma", "valor": "Redonda" },
+      { "clave": "Balance", "valor": "Bajo-Medio" },
+      { "clave": "Núcleo", "valor": "Goma EVA Soft Performance" },
+      { "clave": "Carbono", "valor": "Caras de fibra de carbono 6K; marco de carbono" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0CNWGVR6M" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51pUfutc2gL._AC_SL1200_.jpg"
+  },
+  {
+    "id": "head-graphene-360-alpha-motion-2019",
+    "nombre": "Head Graphene 360 Alpha Motion 2019",
+    "marca": "Head",
+    "precio": 88.11,
+    "precioAntes": null,
+    "descripcionCorta": "Pala polivalente de Head usada por Ari Sánchez, con tecnología Graphene 360 en el marco para mayor estabilidad y transferencia de energía. Equilibrio entre potencia y control.",
+    "specs": [
+      { "clave": "Forma", "valor": "Lágrima" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Núcleo", "valor": "Power Foam" },
+      { "clave": "Carbono", "valor": "Caras de fibra de carbono con grafeno 360 en el marco" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0CGRV795T" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/512Pn57Gs3L._AC_SX679_.jpg"
+  },
+  {
+    "id": "head-speed-junior",
+    "nombre": "Head Speed Junior",
+    "marca": "Head",
+    "precio": 49.85,
+    "precioAntes": null,
+    "descripcionCorta": "Pala infantil/junior de Head (recomendada a partir de 10 años), más ligera y manejable que los modelos de adulto. Pensada para que los más jóvenes desarrollen tacto y precisión.",
+    "specs": [
+      { "clave": "Forma", "valor": "Lágrima" },
+      { "clave": "Balance", "valor": "Bajo (aprox. 275 mm)" },
+      { "clave": "Núcleo", "valor": "Power Foam" },
+      { "clave": "Carbono", "valor": "Sin carbono (marco y caras de fibra de vidrio, tecnología Innegra)" },
+      { "clave": "Nivel recomendado", "valor": "Junior / Iniciación" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0BSL99SWB" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61Y1kdHm+bL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-neuron-25",
+    "nombre": "Bullpadel Neuron 25",
+    "marca": "Bullpadel",
+    "precio": 139.95,
+    "precioAntes": 147.0,
+    "descripcionCorta": "Pala oficial de Federico Chingotto. Forma híbrida y balance medio pensados para combinar control y potencia, con el nuevo perfil Lateral Wave para reducir vibraciones.",
+    "specs": [
+      { "clave": "Forma", "valor": "Híbrida" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Núcleo", "valor": "Multieva (estructura sándwich de 3 capas)" },
+      { "clave": "Carbono", "valor": "Caras X-Tend Carbon 3K; marco CarbonTube 100% carbono" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DHZL5ZFF" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61FI28JG88L._AC_SX679_.jpg"
+  },
+  {
+    "id": "nox-x-aura-2026",
+    "nombre": "Nox X-Aura 2026",
+    "marca": "Nox",
+    "precio": 85.26,
+    "precioAntes": null,
+    "descripcionCorta": "Pala de iniciación de Nox, con forma redonda y balance bajo orientados a la manejabilidad y el juego defensivo. Diseño exclusivo pensado para jugadoras que empiezan o priorizan el control.",
+    "specs": [
+      { "clave": "Forma", "valor": "Redonda" },
+      { "clave": "Balance", "valor": "Bajo" },
+      { "clave": "Núcleo", "valor": "HR3 EVA" },
+      { "clave": "Carbono", "valor": "Sin carbono en caras (fibra de vidrio); marco de carbono (Carbon Frame)" },
+      { "clave": "Nivel recomendado", "valor": "Iniciación" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0GX6X3VCX" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/519pbu4uq7L._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-vertex-04-mx-24",
+    "nombre": "Bullpadel Vertex 04 MX 24",
+    "marca": "Bullpadel",
+    "precio": 216.41,
+    "precioAntes": null,
+    "descripcionCorta": "Edición especial del torneo GNP México Major Premier Padel, con diseño de calaveras inspirado en el estilo mexicano. Misma tecnología de la Vertex 04 estándar para jugadores expertos.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "Multieva (doble densidad)" },
+      { "clave": "Carbono", "valor": "Caras Xtend Carbon 12K; marco CarbonTube 100% carbono" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Profesional" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0D7F1P8LH" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71qqIXxY7tL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-ionic-power-26",
+    "nombre": "Bullpadel Ionic Power 26",
+    "marca": "Bullpadel",
+    "precio": 141.3,
+    "precioAntes": 161.95,
+    "descripcionCorta": "Pala de gama media-alta con sistema XForce, pensada para jugadores de nivel intermedio que buscan un salto en potencia ofensiva sin perder manejabilidad.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "Multieva (doble densidad)" },
+      { "clave": "Carbono", "valor": "Caras Glaphite (fibra de vidrio + carbono); marco CarbonTube" },
+      { "clave": "Nivel recomendado", "valor": "Intermedio" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0GCVNVGHL" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61hGmkn9FYL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-vertex-05-woman",
+    "nombre": "Bullpadel Vertex 05 Woman",
+    "marca": "Bullpadel",
+    "precio": 184.95,
+    "precioAntes": null,
+    "descripcionCorta": "Pala oficial de Delfi Brea, con molde de diamante y peso optimizado (350-360 g) para un juego reactivo, potente y ágil en jugadoras avanzadas.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Medio-Alto" },
+      { "clave": "Núcleo", "valor": "Multieva (doble densidad)" },
+      { "clave": "Carbono", "valor": "Caras Fibrix (fibra de vidrio + carbono); marco CarbonTube" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Profesional" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FPTL5GH8" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/6107wrvm6jL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-vertex-04-25-woman",
+    "nombre": "Bullpadel Vertex 04 25 Woman",
+    "marca": "Bullpadel",
+    "precio": 149.95,
+    "precioAntes": null,
+    "descripcionCorta": "Pala oficial de Delfi Brea para 2025, forma diamante y balance alto que aporta máxima potencia sin perder el control, con peso ligero y manejable.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "Multieva (doble densidad)" },
+      { "clave": "Carbono", "valor": "Caras Fibrix (fibra de vidrio + carbono); marco CarbonTube 100% carbono" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Profesional" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DHZJJY1S" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61mDKdJtNnL._AC_SX679_.jpg"
+  },
+  {
+    "id": "head-coello-team-2026",
+    "nombre": "Head Coello Team 2026",
+    "marca": "Head",
+    "precio": 173.05,
+    "precioAntes": null,
+    "descripcionCorta": "Versión más accesible de la gama Coello de Arturo Coello, con forma diamante y balance bajo para facilitar el manejo y el control conservando el ADN ofensivo.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Bajo" },
+      { "clave": "Núcleo", "valor": "Power Foam" },
+      { "clave": "Carbono", "valor": "Sin carbono en caras (fibra de vidrio); marco 100% carbono" },
+      { "clave": "Nivel recomendado", "valor": "Iniciación / Intermedio" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0GHXRBS7W" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71yEJGEC2BL._AC_SY879_.jpg"
+  },
+  {
+    "id": "bullpadel-elite-w-25-woman",
+    "nombre": "Bullpadel Elite W 25 Woman",
+    "marca": "Bullpadel",
+    "precio": 148.0,
+    "precioAntes": 169.4,
+    "descripcionCorta": "Pala oficial de Gemma Triay, formato híbrido y balance medio pensado para un juego total, ágil y ligero, ideal para jugadoras expertas.",
+    "specs": [
+      { "clave": "Forma", "valor": "Híbrida" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Núcleo", "valor": "Multieva (estructura sándwich de 3 capas)" },
+      { "clave": "Carbono", "valor": "Caras Fibrix (fibra de vidrio + carbono); marco CarbonTube 100% carbono" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Profesional" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DGKXT591" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51QEqyQ9zaL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-pearl-2026",
+    "nombre": "Bullpadel Pearl 2026",
+    "marca": "Bullpadel",
+    "precio": 192.9,
+    "precioAntes": 279.95,
+    "descripcionCorta": "Pala oficial de Bea González, forma diamante y balance alto para golpes ofensivos explosivos, con un tacto medio-blando poco habitual en palas de diamante.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "Multieva (estructura sándwich de 3 capas)" },
+      { "clave": "Carbono", "valor": "Caras Fibrix (fibra de vidrio + carbono); marco CarbonTube 100% carbono" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Profesional" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FHC3XXMC" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51j186jSBdL._AC_SX679_.jpg"
+  },
+  {
+    "id": "siux-fenix-pro-5-black",
+    "nombre": "Siux Fenix Pro 5 Black",
+    "marca": "Siux",
+    "precio": 139.45,
+    "precioAntes": 155.4,
+    "descripcionCorta": "Pala oficial de Leo Augsburger, forma diamante y balance alto pensada para jugadores ofensivos que basan su juego en el remate y la agresividad en la red.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "Black EVA (tacto duro)" },
+      { "clave": "Carbono", "valor": "Caras de carbono 24K; marco de carbono 3K" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado / Profesional" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0F27H1RD9" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51jQyFWpTuL._AC_SX679_.jpg"
+  },
+  {
+    "id": "head-speed-one",
+    "nombre": "Head Speed One",
+    "marca": "Head",
+    "precio": 169.95,
+    "precioAntes": null,
+    "descripcionCorta": "La más ligera de la colección Speed One de Head, con forma de lágrima y balance medio-alto que combina potencia y control con un punto dulce amplio.",
+    "specs": [
+      { "clave": "Forma", "valor": "Lágrima" },
+      { "clave": "Balance", "valor": "Medio-Alto" },
+      { "clave": "Núcleo", "valor": "Power Foam" },
+      { "clave": "Carbono", "valor": "Caras de carbono 2D (bidimensional)" },
+      { "clave": "Nivel recomendado", "valor": "Intermedio / Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DNTQTRND" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51331iOxqDL._AC_SX679_.jpg"
   }
 ]

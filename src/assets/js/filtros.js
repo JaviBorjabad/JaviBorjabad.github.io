@@ -4,6 +4,15 @@
     var grid = document.querySelector(".productos-grid");
     if (!barra || !grid) return;
 
+    var botonToggle = document.querySelector("[data-filtro-toggle]");
+    if (botonToggle) {
+      botonToggle.addEventListener("click", function () {
+        var abierto = !barra.hidden;
+        barra.hidden = abierto;
+        botonToggle.setAttribute("aria-expanded", String(!abierto));
+      });
+    }
+
     var tarjetas = Array.prototype.slice.call(grid.querySelectorAll("[data-producto-card]"));
     var ordenOriginal = tarjetas.slice();
     var vacio = document.querySelector("[data-filtros-vacio]");

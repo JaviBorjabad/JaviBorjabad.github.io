@@ -210,16 +210,20 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
 }
 
 /* ---------- Barra de filtros ---------- */
+.filtros-toggle {
+  margin: 24px 0 0;
+}
 .filtros-barra {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
-  margin: 24px 0 8px;
+  margin: 12px 0 8px;
   padding: 16px;
   background: var(--gris-100);
   border-radius: var(--radio);
 }
+.filtros-barra[hidden] { display: none; }
 .filtros-buscador,
 .filtros-select,
 .filtros-precio-input {

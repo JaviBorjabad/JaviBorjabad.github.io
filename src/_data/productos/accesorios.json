@@ -114,5 +114,69 @@
     },
     "destacado": false,
     "imagen": "https://m.media-amazon.com/images/I/51AsizRzk3L._AC_SY879_.jpg"
+  },
+  {
+    "id": "bullpadel-premium-pro-tripack-bolas",
+    "nombre": "Tripack De Botes De 3 Bolas Bullpadel Premium Pro",
+    "marca": "Bullpadel",
+    "precio": 13.9,
+    "precioAntes": null,
+    "descripcionCorta": "Pack de 3 botes (9 pelotas) de la gama Premium Pro de Bullpadel, pensado para entrenar o competir sin quedarte sin pelotas a media sesión.",
+    "specs": [
+      { "clave": "Contenido", "valor": "3 botes de 3 pelotas (9 pelotas)" },
+      { "clave": "Gama", "valor": "Premium Pro" },
+      { "clave": "Uso recomendado", "valor": "Entrenamiento y competición" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B07F18MPQQ" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/613CQlmSETL._AC_SX522_.jpg"
+  },
+  {
+    "id": "head-pro-s-pack-bolas",
+    "nombre": "Pelota de Pádel Head Pro S Pack 3 Botes",
+    "marca": "Head",
+    "precio": 14.9,
+    "precioAntes": null,
+    "descripcionCorta": "Pack de 3 botes (9 pelotas) Head Pro S, pelotas de competición de alta durabilidad para jugadores exigentes.",
+    "specs": [
+      { "clave": "Contenido", "valor": "3 botes de 3 pelotas (9 pelotas)" },
+      { "clave": "Nivel", "valor": "Competición" },
+      { "clave": "Durabilidad", "valor": "Alta" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B09L1BQ4YV" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61TiD9Ef9rL._AC_SX522_.jpg"
+  },
+  {
+    "id": "ball-rescuer-presurizador",
+    "nombre": "Ball Rescuer - Presurizador",
+    "marca": "Ball Rescuer",
+    "precio": 38.18,
+    "precioAntes": null,
+    "descripcionCorta": "Presurizador reutilizable que convierte cualquier bote de pelotas de pádel o tenis en un recipiente a presión, alargando la vida útil de las pelotas. Compatible con botes de 3 o 4 unidades (bote no incluido).",
+    "specs": [
+      { "clave": "Función", "valor": "Convierte un bote de pelotas en presurizador" },
+      { "clave": "Presión", "valor": "30 PSI" },
+      { "clave": "Compatibilidad", "valor": "Botes de 3 o 4 pelotas (bote no incluido)" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B074PR229B" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61paljoqIzL._AC_SX522_.jpg"
+  },
+  {
+    "id": "palbea-protector-transparente",
+    "nombre": "PALBEA Protector Pala de Pádel Transparente",
+    "marca": "Palbea",
+    "precio": 6.99,
+    "precioAntes": null,
+    "descripcionCorta": "Protector de cabeza de pala transparente, rugoso y ligero, pensado para alargar la vida de la pala frente al roce con el suelo en golpes bajos.",
+    "specs": [
+      { "clave": "Tipo", "valor": "Protector de pala" },
+      { "clave": "Material", "valor": "Rugoso y ligero" },
+      { "clave": "Dimensiones", "valor": "35 x 370 mm" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0C7C6LC84" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/81YXZQ0oBjL._AC_SX522_.jpg"
   }
 ]
