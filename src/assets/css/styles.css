@@ -365,6 +365,7 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
   width: 100%;
   border-collapse: collapse;
   min-width: 640px;
+  table-layout: fixed;
 }
 .tabla-comparativa th, .tabla-comparativa td {
   text-align: left;
