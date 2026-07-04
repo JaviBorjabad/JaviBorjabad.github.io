@@ -7,13 +7,29 @@
     "precioAntes": null,
     "descripcionCorta": "Camiseta técnica firmada por Montse Chingotto, en acabado jaspeado \"Arena Vigore\". Tejido transpirable pensado para competición, con el corte ajustado propio de la gama profesional de Bullpadel.",
     "specs": [
-      { "clave": "Tejido", "valor": "Poliéster técnico transpirable" },
-      { "clave": "Tecnología", "valor": "Control de humedad" },
-      { "clave": "Corte", "valor": "Ajustado (fit competición)" },
-      { "clave": "Colección", "valor": "Firmada por Montse Chingotto" }
+      {
+        "clave": "Tejido",
+        "valor": "Poliéster técnico transpirable"
+      },
+      {
+        "clave": "Tecnología",
+        "valor": "Control de humedad"
+      },
+      {
+        "clave": "Corte",
+        "valor": "Ajustado (fit competición)"
+      },
+      {
+        "clave": "Colección",
+        "valor": "Firmada por Montse Chingotto"
+      }
     ],
-    "afiliado": { "red": "amazon", "asin": "B0GWF9J7DM" },
-    "destacado": true
+    "afiliado": {
+      "red": "amazon",
+      "asin": "B0GWF9J7DM"
+    },
+    "destacado": true,
+    "imagen": "https://m.media-amazon.com/images/I/51P9i1Qh+vL._AC_SX679_.jpg"
   },
   {
     "id": "camiseta-tapia-nox",
@@ -23,12 +39,28 @@
     "precioAntes": null,
     "descripcionCorta": "Camiseta de la colección de patrocinadores de Agustín Tapia. Tejido técnico transpirable con el diseño oficial de la equipación de Nox.",
     "specs": [
-      { "clave": "Tejido", "valor": "Poliéster técnico transpirable" },
-      { "clave": "Tecnología", "valor": "Control de humedad" },
-      { "clave": "Corte", "valor": "Regular" },
-      { "clave": "Colección", "valor": "Firmada por Agustín Tapia" }
+      {
+        "clave": "Tejido",
+        "valor": "Poliéster técnico transpirable"
+      },
+      {
+        "clave": "Tecnología",
+        "valor": "Control de humedad"
+      },
+      {
+        "clave": "Corte",
+        "valor": "Regular"
+      },
+      {
+        "clave": "Colección",
+        "valor": "Firmada por Agustín Tapia"
+      }
     ],
-    "afiliado": { "red": "amazon", "asin": "B0DDMXS84P" },
-    "destacado": false
+    "afiliado": {
+      "red": "amazon",
+      "asin": "B0DDMXS84P"
+    },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51FetygXN+L._AC_UL640_QL65_.jpg"
   }
 ]

@@ -1,18 +1,118 @@
 [
   {
     "id": "overgrip-wilson-pro-60",
-    "nombre": "Wilson Overgrip Pádel Pro, Paquete de 60, Blanco",
+    "nombre": "Caja 60 Uds Overgrip Wilson Pro, Blanco",
     "marca": "Wilson",
-    "precio": 79.00,
+    "precio": 89.95,
     "precioAntes": null,
     "descripcionCorta": "Pack grande de overgrips Wilson en blanco — pensado para quien juega con frecuencia y no quiere quedarse sin grip a mitad de temporada.",
     "specs": [
-      { "clave": "Material", "valor": "Grip sintético" },
-      { "clave": "Unidades", "valor": "Pack de 60" },
-      { "clave": "Color", "valor": "Blanco" },
-      { "clave": "Tacto", "valor": "Estándar" }
+      {
+        "clave": "Material",
+        "valor": "Grip sintético"
+      },
+      {
+        "clave": "Unidades",
+        "valor": "Pack de 60"
+      },
+      {
+        "clave": "Color",
+        "valor": "Blanco"
+      },
+      {
+        "clave": "Tacto",
+        "valor": "Estándar"
+      }
     ],
-    "afiliado": { "red": "amazon", "asin": "B0CD3FHN84" },
-    "destacado": true
+    "afiliado": {
+      "red": "amazon",
+      "asin": "B0C268P2G9"
+    },
+    "destacado": true,
+    "imagen": "https://m.media-amazon.com/images/I/61yQPZGLz6L._AC_SX522_.jpg"
+  },
+  {
+    "id": "presurizador-tuboplus-x3",
+    "nombre": "TUBOPLUS TuboX3 Color - Presurizador de Pelotas de Pádel",
+    "marca": "Tuboplus",
+    "precio": 19.99,
+    "precioAntes": null,
+    "descripcionCorta": "Presurizador de pelotas de pádel y tenis para mantener la presión y recuperar el rebote, con capacidad para 3 pelotas.",
+    "specs": [
+      {
+        "clave": "Capacidad",
+        "valor": "3 pelotas"
+      },
+      {
+        "clave": "Uso",
+        "valor": "Pádel y tenis"
+      },
+      {
+        "clave": "Función",
+        "valor": "Mantener presión y recuperar rebote"
+      }
+    ],
+    "afiliado": {
+      "red": "amazon",
+      "asin": "B0BTDTVCG2"
+    },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61MQEjb3m4L._AC_SL1500_.jpg"
+  },
+  {
+    "id": "gimadd-soporte-movil",
+    "nombre": "Gimadd Soporte Móvil para Pádel",
+    "marca": "GD GIMADD",
+    "precio": 49.0,
+    "precioAntes": null,
+    "descripcionCorta": "Soporte para móvil diseñado especialmente para espacios deportivos. Ideal para grabar y hacer fotos durante partidos, entrenamientos o clases.",
+    "specs": [
+      {
+        "clave": "Tipo",
+        "valor": "Trípode con base de imán de neodimio"
+      },
+      {
+        "clave": "Compatibilidad",
+        "valor": "iPhone, Samsung, Xiaomi y otros"
+      },
+      {
+        "clave": "Uso recomendado",
+        "valor": "Grabación en pistas de pádel y espacios deportivos"
+      }
+    ],
+    "afiliado": {
+      "red": "amazon",
+      "asin": "B0D8J9GF7G"
+    },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/81-F9Y4nJTL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-hesacore-padel",
+    "nombre": "Bullpadel Hesacore GP712 Tourgrip Blanco",
+    "marca": "Bullpadel",
+    "precio": 22.8,
+    "precioAntes": null,
+    "descripcionCorta": "Grip ergonómico e innovador con estructura de panal de abeja (hexagonal) que sustituye al grip original de la pala para mejorar el agarre y reducir lesiones.",
+    "specs": [
+      {
+        "clave": "Estructura",
+        "valor": "Panal de abeja (hexagonal)"
+      },
+      {
+        "clave": "Función",
+        "valor": "Sustituye al grip original de la pala"
+      },
+      {
+        "clave": "Objetivo",
+        "valor": "Mejorar agarre y reducir lesiones"
+      }
+    ],
+    "afiliado": {
+      "red": "amazon",
+      "asin": "B08W87R4K9"
+    },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51AsizRzk3L._AC_SY879_.jpg"
   }
 ]
