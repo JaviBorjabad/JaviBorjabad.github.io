@@ -9,6 +9,7 @@ heroTexto: Tejidos transpirables, cortes pensados para el juego y materiales de 
 ---
 {% from "partials/producto-card.njk" import card %}
 {% set marcas = productos.ropa | unicos("marca") %}
+{% set subcategorias = productos.ropa | unicos("subcategoria") %}
 {% set mostrarPrecio = true %}
 {% set mostrarOrden = true %}
 
@@ -20,10 +21,11 @@ heroTexto: Tejidos transpirables, cortes pensados para el juego y materiales de 
   <p>El tejido y el corte marcan la diferencia en sesiones largas: los tejidos técnicos con control de humedad reducen el peso por sudoración frente al algodón. El corte ajustado es propio de competición; el corte regular prioriza comodidad fuera de pista.</p>
 
   {% include "partials/aviso-afiliados.njk" %}
+  {% include "partials/subcategoria-submenu.njk" %}
   {% include "partials/filtros.njk" %}
 
   <div class="productos-grid">
-    {% for producto in productos.ropa %}
+    {% for producto in productos.ropa | porMarca %}
       {{ card(producto, "ropa", afiliados) }}
     {% endfor %}
   </div>

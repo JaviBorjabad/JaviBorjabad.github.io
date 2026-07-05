@@ -26,6 +26,12 @@
     var selOrden = barra.querySelector("[data-filtro-orden]");
     var botonReset = barra.querySelector("[data-filtro-reset]");
 
+    var submenu = document.querySelector("[data-subcategoria-submenu]");
+    var botonesSubcategoria = submenu
+      ? Array.prototype.slice.call(submenu.querySelectorAll("[data-subcategoria-valor]"))
+      : [];
+    var subcategoriaActiva = "";
+
     function aplicarFiltros() {
       var texto = buscador ? buscador.value.trim().toLowerCase() : "";
       var marca = selMarca ? selMarca.value : "";
@@ -40,6 +46,7 @@
         var cardMarca = card.getAttribute("data-marca") || "";
         var cardForma = card.getAttribute("data-forma") || "";
         var cardNivel = card.getAttribute("data-nivel") || "";
+        var cardSubcategoria = card.getAttribute("data-subcategoria") || "";
         var precio = parseFloat(card.getAttribute("data-precio") || "0");
 
         var ok = true;
@@ -49,6 +56,7 @@
         if (marca && cardMarca !== marca) ok = false;
         if (forma && cardForma !== forma) ok = false;
         if (nivel && cardNivel !== nivel) ok = false;
+        if (subcategoriaActiva && cardSubcategoria !== subcategoriaActiva) ok = false;
         if (min !== null && !isNaN(min) && precio < min) ok = false;
         if (max !== null && !isNaN(max) && precio > max) ok = false;
 
@@ -80,6 +88,10 @@
       if (precioMin) precioMin.value = "";
       if (precioMax) precioMax.value = "";
       if (selOrden) selOrden.value = "";
+      subcategoriaActiva = "";
+      botonesSubcategoria.forEach(function (boton) {
+        boton.classList.toggle("is-activo", boton.getAttribute("data-subcategoria-valor") === "");
+      });
       ordenOriginal.forEach(function (card) {
         grid.appendChild(card);
       });
@@ -97,5 +109,14 @@
     if (botonReset) {
       botonReset.addEventListener("click", restablecer);
     }
+    botonesSubcategoria.forEach(function (boton) {
+      boton.addEventListener("click", function () {
+        subcategoriaActiva = boton.getAttribute("data-subcategoria-valor") || "";
+        botonesSubcategoria.forEach(function (b) {
+          b.classList.toggle("is-activo", b === boton);
+        });
+        aplicarFiltros();
+      });
+    });
   });
 })();

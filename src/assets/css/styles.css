@@ -209,9 +209,32 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
   font-size: 1.05rem;
 }
 
+/* ---------- Submenú de subcategorías ---------- */
+.subcategoria-submenu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0 0;
+}
+.subcategoria-submenu__item {
+  font-family: var(--fuente);
+  font-size: 0.85rem;
+  padding: 8px 16px;
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  background: var(--blanco);
+  color: var(--negro);
+  cursor: pointer;
+}
+.subcategoria-submenu__item.is-activo {
+  background: var(--negro);
+  border-color: var(--negro);
+  color: var(--blanco);
+}
+
 /* ---------- Barra de filtros ---------- */
 .filtros-toggle {
-  margin: 24px 0 0;
+  margin: 16px 0 0;
 }
 .filtros-barra {
   display: flex;

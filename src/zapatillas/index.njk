@@ -25,7 +25,7 @@ heroTexto: El calzado específico de pádel marca la diferencia en cada frenada 
   {% include "partials/filtros.njk" %}
 
   <div class="productos-grid">
-    {% for producto in productos.zapatillas %}
+    {% for producto in productos.zapatillas | porMarca %}
       {{ card(producto, "zapatillas", afiliados) }}
     {% endfor %}
   </div>

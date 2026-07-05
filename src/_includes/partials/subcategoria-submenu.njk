@@ -1,0 +1,8 @@
+{% if subcategorias %}
+<div class="subcategoria-submenu" data-subcategoria-submenu>
+  <button type="button" class="subcategoria-submenu__item is-activo" data-subcategoria-valor="">Todo</button>
+  {% for s in subcategorias %}
+    <button type="button" class="subcategoria-submenu__item" data-subcategoria-valor="{{ s }}">{{ s }}</button>
+  {% endfor %}
+</div>
+{% endif %}

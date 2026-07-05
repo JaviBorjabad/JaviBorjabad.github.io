@@ -27,7 +27,7 @@ heroTexto: El pádel es ya el deporte de raqueta con más licencias en España. 
   {% include "partials/filtros.njk" %}
 
   <div class="productos-grid">
-    {% for producto in productos.palas %}
+    {% for producto in productos.palas | porMarca %}
       {{ card(producto, "palas", afiliados) }}
     {% endfor %}
   </div>

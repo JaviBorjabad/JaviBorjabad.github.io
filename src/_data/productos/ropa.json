@@ -5,6 +5,7 @@
     "marca": "Bullpadel",
     "precio": 55.34,
     "precioAntes": null,
+    "subcategoria": "Camiseta",
     "descripcionCorta": "Camiseta técnica firmada por Montse Chingotto, en acabado jaspeado \"Arena Vigore\". Tejido transpirable pensado para competición, con el corte ajustado propio de la gama profesional de Bullpadel.",
     "specs": [
       {
@@ -37,6 +38,7 @@
     "marca": "Nox",
     "precio": 49.31,
     "precioAntes": null,
+    "subcategoria": "Camiseta",
     "descripcionCorta": "Camiseta de la colección de patrocinadores de Agustín Tapia. Tejido técnico transpirable con el diseño oficial de la equipación de Nox.",
     "specs": [
       {
@@ -62,5 +64,192 @@
     },
     "destacado": false,
     "imagen": "https://m.media-amazon.com/images/I/51FetygXN+L._AC_UL640_QL65_.jpg"
+  },
+  {
+    "id": "camiseta-padel-personalizable-anillas-isabel",
+    "nombre": "Camiseta Pádel Personalizable",
+    "marca": "Anillas Isabel",
+    "precio": 12.9,
+    "precioAntes": null,
+    "subcategoria": "Camiseta",
+    "descripcionCorta": "Camiseta técnica personalizable, ideal para equipos o jugadores que quieren un diseño propio con su nombre o logo para torneos y partidos amistosos.",
+    "specs": [
+      { "clave": "Tejido", "valor": "Poliéster técnico transpirable" },
+      { "clave": "Personalización", "valor": "Nombre y bandera (impresión DTF)" },
+      { "clave": "Corte", "valor": "Unisex" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0GVVQ9VFC" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61HbAt1docL._AC_SX679_.jpg"
+  },
+  {
+    "id": "camiseta-hombre-italia-padel-cup-top-player",
+    "nombre": "Camiseta Hombre Italia Padel Cup",
+    "marca": "Top player",
+    "precio": 30.0,
+    "precioAntes": null,
+    "subcategoria": "Camiseta",
+    "descripcionCorta": "Camiseta oficial de la selección de Italia para la Padel Cup, tejido transpirable pensado para competición y entrenamientos de alta intensidad.",
+    "specs": [
+      { "clave": "Tejido", "valor": "Transpirable técnico" },
+      { "clave": "Colección", "valor": "Selección de Italia - Padel Cup" },
+      { "clave": "Uso", "valor": "Competición y entrenamiento" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0C6P24BGQ" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/615SJMIedjL._AC_SX569_.jpg"
+  },
+  {
+    "id": "pantalon-corto-soller-hombre-black-crown",
+    "nombre": "Pantalón Corto Soller Hombre",
+    "marca": "Black Crown",
+    "precio": 14.9,
+    "precioAntes": null,
+    "subcategoria": "Pantalon",
+    "descripcionCorta": "Pantalón corto técnico de Black Crown para hombre, ligero y transpirable, pensado para ofrecer libertad de movimiento durante el partido.",
+    "specs": [
+      { "clave": "Tejido", "valor": "Ligero y transpirable" },
+      { "clave": "Cintura", "valor": "Ajustable" },
+      { "clave": "Género", "valor": "Hombre" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0G1YH38BN" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/410BWI2s63L._AC_SX679_.jpg"
+  },
+  {
+    "id": "vestido-padel-mujer-bezioner",
+    "nombre": "Vestido Padel Mujer",
+    "marca": "Bezioner",
+    "precio": 33.24,
+    "precioAntes": 34.99,
+    "subcategoria": "Camiseta",
+    "descripcionCorta": "Vestido deportivo de una pieza para pádel, con tejido elástico y transpirable que combina comodidad y libertad de movimiento en pista.",
+    "specs": [
+      { "clave": "Tejido", "valor": "Elástico y transpirable" },
+      { "clave": "Formato", "valor": "Una pieza" },
+      { "clave": "Género", "valor": "Mujer" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DRFMPGB9" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61v4aKz48gL._AC_SX679_.jpg"
+  },
+  {
+    "id": "camiseta-deportiva-manga-corta-hombre-joma",
+    "nombre": "Camiseta Deportiva Manga Corta Hombre",
+    "marca": "Joma",
+    "precio": 6.85,
+    "precioAntes": null,
+    "subcategoria": "Camiseta",
+    "descripcionCorta": "Camiseta técnica de manga corta de Joma, tejido ligero que absorbe la humedad y facilita la transpiración durante el ejercicio.",
+    "specs": [
+      { "clave": "Tejido", "valor": "Ligero, absorbe la humedad" },
+      { "clave": "Manga", "valor": "Corta" },
+      { "clave": "Género", "valor": "Hombre" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B00J28DI7I" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51jwYp9v-eL._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    "id": "falda-de-padel-crz-yoga",
+    "nombre": "Falda de Padel",
+    "marca": "CRZ Yoga",
+    "precio": 30.0,
+    "precioAntes": null,
+    "subcategoria": "Pantalon",
+    "descripcionCorta": "Falda deportiva con short interior integrado, tejido elástico de secado rápido pensado para dar libertad de movimiento en cada golpe.",
+    "specs": [
+      { "clave": "Tejido", "valor": "Elástico de secado rápido" },
+      { "clave": "Formato", "valor": "Short interior integrado" },
+      { "clave": "Género", "valor": "Mujer" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DJY2ZL64" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71UgdmKpcHL._AC_SX569_.jpg"
+  },
+  {
+    "id": "jungle-socks-padel-series",
+    "nombre": "Jungle Socks Padel Series",
+    "marca": "Jungle Socks",
+    "precio": 12.99,
+    "precioAntes": null,
+    "subcategoria": "Calcetines",
+    "descripcionCorta": "Calcetines técnicos de la serie Padel de Jungle Socks, con diseño transpirable y refuerzos en zonas de mayor fricción para más comodidad en pista.",
+    "specs": [
+      { "clave": "Tipo", "valor": "Calcetín técnico de compresión" },
+      { "clave": "Refuerzos", "valor": "Zonas de mayor fricción" },
+      { "clave": "Transpirabilidad", "valor": "Alta" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DG33MM8G" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/81mV0RM3JoL._AC_SX679_.jpg"
+  },
+  {
+    "id": "4-pares-mangas-del-brazo-yqxcc",
+    "nombre": "4 Pares Mangas del Brazo",
+    "marca": "YQXCC",
+    "precio": 14.99,
+    "precioAntes": null,
+    "subcategoria": "Otros",
+    "descripcionCorta": "Pack de 4 pares de mangas deportivas de compresión, protegen del sol y ayudan a la circulación durante el juego, unisex y de talla ajustable.",
+    "specs": [
+      { "clave": "Contenido", "valor": "Pack de 4 pares" },
+      { "clave": "Protección", "valor": "UV" },
+      { "clave": "Uso", "valor": "Unisex, talla ajustable" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0B4DQPXN2" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71jpr9wCB6L._AC_SX679_.jpg"
+  },
+  {
+    "id": "head-padel-calcetines",
+    "nombre": "HEAD Padel Calcetines",
+    "marca": "HEAD",
+    "precio": 13.71,
+    "precioAntes": null,
+    "subcategoria": "Calcetines",
+    "descripcionCorta": "Calcetines deportivos de HEAD diseñados específicamente para pádel, con acolchado estratégico y sujeción para mayor comodidad en cada movimiento.",
+    "specs": [
+      { "clave": "Tipo", "valor": "Calcetín deportivo con acolchado" },
+      { "clave": "Sujeción", "valor": "Estratégica" },
+      { "clave": "Uso", "valor": "Pádel" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0D79LRWXV" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51iKLIQvCOL._AC_SX679_.jpg"
+  },
+  {
+    "id": "head-padel-quarter-sock",
+    "nombre": "HEAD Padel Quarter Sock",
+    "marca": "HEAD",
+    "precio": 11.94,
+    "precioAntes": null,
+    "subcategoria": "Calcetines",
+    "descripcionCorta": "Calcetín tobillero de HEAD para pádel, corte bajo y transpirable, pensado para quienes prefieren menos sujeción en el tobillo.",
+    "specs": [
+      { "clave": "Tipo", "valor": "Calcetín tobillero (corte bajo)" },
+      { "clave": "Transpirabilidad", "valor": "Alta" },
+      { "clave": "Sujeción", "valor": "Menor en el tobillo" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0D79JKN7Z" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51ZJHf9MTxL._AC_SX679_.jpg"
+  },
+  {
+    "id": "nike-herren-camiseta",
+    "nombre": "NIKE Herren - Camiseta",
+    "marca": "Nike",
+    "precio": 22.9,
+    "precioAntes": null,
+    "subcategoria": "Camiseta",
+    "descripcionCorta": "Camiseta deportiva de Nike para hombre, tejido técnico Dri-FIT que absorbe la humedad y mantiene la sensación de sequedad durante el ejercicio.",
+    "specs": [
+      { "clave": "Tejido", "valor": "Dri-FIT" },
+      { "clave": "Manga", "valor": "Corta" },
+      { "clave": "Género", "valor": "Hombre" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B07WC5S2YX" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61r3rgp+ZEL._AC_SX679_.jpg"
   }
 ]

@@ -9,6 +9,7 @@
   data-precio="{{ producto.precio }}"
   data-forma="{{ producto.specs | specValor('Forma') }}"
   data-nivel="{{ producto.specs | specValor('Nivel recomendado') }}"
+  data-subcategoria="{{ producto.subcategoria }}"
 >
   <a href="/{{ cat }}/{{ producto.id }}/" class="producto-card__imagen-link">
     <div class="producto-card__imagen producto-card__imagen--{{ cat }}{% if producto.imagen %} producto-card__imagen--foto{% endif %}">

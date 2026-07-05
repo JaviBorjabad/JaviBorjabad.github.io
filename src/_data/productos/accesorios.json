@@ -29,6 +29,7 @@
       "asin": "B0C268P2G9"
     },
     "destacado": true,
+    "subcategoria": "Otros",
     "imagen": "https://m.media-amazon.com/images/I/61yQPZGLz6L._AC_SX522_.jpg"
   },
   {
@@ -57,6 +58,7 @@
       "asin": "B0BTDTVCG2"
     },
     "destacado": false,
+    "subcategoria": "Otros",
     "imagen": "https://m.media-amazon.com/images/I/61MQEjb3m4L._AC_SL1500_.jpg"
   },
   {
@@ -85,6 +87,7 @@
       "asin": "B0D8J9GF7G"
     },
     "destacado": false,
+    "subcategoria": "Otros",
     "imagen": "https://m.media-amazon.com/images/I/81-F9Y4nJTL._AC_SX679_.jpg"
   },
   {
@@ -113,6 +116,7 @@
       "asin": "B08W87R4K9"
     },
     "destacado": false,
+    "subcategoria": "Otros",
     "imagen": "https://m.media-amazon.com/images/I/51AsizRzk3L._AC_SY879_.jpg"
   },
   {
@@ -129,6 +133,7 @@
     ],
     "afiliado": { "red": "amazon", "asin": "B07F18MPQQ" },
     "destacado": false,
+    "subcategoria": "Otros",
     "imagen": "https://m.media-amazon.com/images/I/613CQlmSETL._AC_SX522_.jpg"
   },
   {
@@ -145,6 +150,7 @@
     ],
     "afiliado": { "red": "amazon", "asin": "B09L1BQ4YV" },
     "destacado": false,
+    "subcategoria": "Otros",
     "imagen": "https://m.media-amazon.com/images/I/61TiD9Ef9rL._AC_SX522_.jpg"
   },
   {
@@ -161,6 +167,7 @@
     ],
     "afiliado": { "red": "amazon", "asin": "B074PR229B" },
     "destacado": false,
+    "subcategoria": "Otros",
     "imagen": "https://m.media-amazon.com/images/I/61paljoqIzL._AC_SX522_.jpg"
   },
   {
@@ -177,6 +184,245 @@
     ],
     "afiliado": { "red": "amazon", "asin": "B0C7C6LC84" },
     "destacado": false,
+    "subcategoria": "Otros",
     "imagen": "https://m.media-amazon.com/images/I/81YXZQ0oBjL._AC_SX522_.jpg"
+  },
+  {
+    "id": "totalgrip-spray-4on",
+    "nombre": "TotalGrip Spray",
+    "marca": "4on",
+    "precio": 15.9,
+    "precioAntes": null,
+    "subcategoria": "Otros",
+    "descripcionCorta": "Antideslizante en spray para mejorar el agarre de la pala, pensado para manos sudorosas y sesiones largas de juego.",
+    "specs": [
+      { "clave": "Formato", "valor": "Spray" },
+      { "clave": "Función", "valor": "Antideslizante, máximo agarre y fricción" },
+      { "clave": "Uso recomendado", "valor": "Manos sudorosas" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0G356GDF2" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71fEAwcYvSL._AC_SY450_.jpg"
+  },
+  {
+    "id": "magnesio-grip-gladiator",
+    "nombre": "Magnesio Grip Pádel",
+    "marca": "Gladiator padel",
+    "precio": 14.99,
+    "precioAntes": null,
+    "subcategoria": "Otros",
+    "descripcionCorta": "Magnesio antisudor para manos, con alta adherencia para evitar resbalones en pádel y tenis. Formato de 100 ml.",
+    "specs": [
+      { "clave": "Formato", "valor": "100 ml" },
+      { "clave": "Función", "valor": "Antisudor, alta adherencia" },
+      { "clave": "Uso", "valor": "Pádel y tenis" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0GN2XPWJD" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/41d8IA172YL._AC_SX569_.jpg"
+  },
+  {
+    "id": "bullpadel-paletero",
+    "nombre": "Bullpadel Paletero",
+    "marca": "Bullpadel",
+    "precio": 29.95,
+    "precioAntes": 31.9,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Paletero ligero de capacidad media de Bullpadel, con compartimento acolchado para dos palas, compartimento principal y bolsillo lateral exterior.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "2 palas" },
+      { "clave": "Compartimentos", "valor": "Principal acolchado + bolsillo lateral exterior" },
+      { "clave": "Peso", "valor": "Ligero" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0CLVSSYG4" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71PSAZ94MJL._AC_SL1500_.jpg"
+  },
+  {
+    "id": "adidas-paletero-carbon-control-negro-dorado",
+    "nombre": "Adidas Paletero Carbon Control Negro Dorado",
+    "marca": "Adidas",
+    "precio": 28.4,
+    "precioAntes": null,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Paletero de Adidas con acabado símil carbono, compartimento independiente para hasta 2 palas y bolsillo central para ropa y accesorios personales.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "2 palas" },
+      { "clave": "Acabado", "valor": "Símil carbono" },
+      { "clave": "Compartimentos", "valor": "Independiente para palas + bolsillo central" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B08CDPK319" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51SDoTe3bVL._AC_SX679_.jpg"
+  },
+  {
+    "id": "paletero-de-padel-futura8",
+    "nombre": "Paletero de Pádel Futura8",
+    "marca": "Futura8",
+    "precio": 74.95,
+    "precioAntes": null,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Mochila de gran capacidad con compartimento térmico, protege hasta 4 palas. Ideal para entrenamientos y torneos, resistente y ergonómica.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "4 palas" },
+      { "clave": "Compartimento térmico", "valor": "Sí" },
+      { "clave": "Formato", "valor": "Mochila" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0D2NZ5TZ2" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/816h18lRSnL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-paletero-tour-negro",
+    "nombre": "Bullpadel Paletero Tour Negro",
+    "marca": "Bullpadel",
+    "precio": 29.95,
+    "precioAntes": null,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Paletero ligero de capacidad media de Bullpadel, con compartimento acolchado para dos palas, compartimento principal y bolsillo lateral exterior.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "2 palas" },
+      { "clave": "Color", "valor": "Negro" },
+      { "clave": "Compartimentos", "valor": "Principal acolchado + bolsillo lateral exterior" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FSDQLJZ1" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/511lo-QeOML._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    "id": "bullpadel-paletero-avant-s-gold-carbon",
+    "nombre": "Bullpadel Paletero Avant S Gold Carbon",
+    "marca": "Bullpadel",
+    "precio": 39.95,
+    "precioAntes": 47.99,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Paletero de gama alta con 2 bolsillos térmicos para 2 palas cada uno, compartimento central para ropa, zapatillero independiente y asas tipo mochila.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "4 palas (2 bolsillos térmicos)" },
+      { "clave": "Zapatillero", "valor": "Independiente" },
+      { "clave": "Formato", "valor": "Asas tipo mochila" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B095V7MC8Z" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61+-ZgCb4CL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-paletero-tour-negro-naranja",
+    "nombre": "Bullpadel Paletero Tour Negro/Naranja",
+    "marca": "Bullpadel",
+    "precio": 29.95,
+    "precioAntes": null,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Paletero ligero de capacidad media de Bullpadel, con compartimento acolchado para dos palas, compartimento principal y bolsillo lateral exterior.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "2 palas" },
+      { "clave": "Color", "valor": "Negro/Naranja" },
+      { "clave": "Compartimentos", "valor": "Principal acolchado + bolsillo lateral exterior" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FSDP9RPP" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51Fk0D-JWTL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-paletero-tour-negro-gris",
+    "nombre": "Bullpadel Paletero Tour Negro/Gris",
+    "marca": "Bullpadel",
+    "precio": 29.95,
+    "precioAntes": null,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Paletero ligero de capacidad media de Bullpadel, con compartimento acolchado para dos palas, compartimento principal y bolsillo lateral exterior.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "2 palas" },
+      { "clave": "Color", "valor": "Negro/Gris" },
+      { "clave": "Compartimentos", "valor": "Principal acolchado + bolsillo lateral exterior" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FSDRLRZC" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61lm0N6Hv1L._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    "id": "bullpadel-paletero-tour",
+    "nombre": "Bullpadel Paletero Tour",
+    "marca": "Bullpadel",
+    "precio": 29.95,
+    "precioAntes": null,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Paletero ligero de capacidad media de Bullpadel, con compartimento acolchado para dos palas, compartimento principal y bolsillo lateral exterior.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "2 palas" },
+      { "clave": "Compartimentos", "valor": "Principal acolchado + bolsillo lateral exterior" },
+      { "clave": "Peso", "valor": "Ligero" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FSDS33M5" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51dgzF7gcoL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-paletero-avant-s-gris",
+    "nombre": "Bullpadel Paletero Avant S Gris",
+    "marca": "Bullpadel",
+    "precio": 39.95,
+    "precioAntes": 49.9,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Paletero de gama alta con 2 bolsillos térmicos para 2 palas cada uno, compartimento central para ropa, zapatillero independiente ventilado y asas tipo mochila.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "4 palas (2 bolsillos térmicos)" },
+      { "clave": "Zapatillero", "valor": "Independiente y ventilado" },
+      { "clave": "Formato", "valor": "Asas tipo mochila" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B095W7Z8FC" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61tZLqyNXgL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bullpadel-mochila-avant-carbon-negro",
+    "nombre": "Bullpadel Mochila Avant Carbon Negro",
+    "marca": "Bullpadel",
+    "precio": 39.95,
+    "precioAntes": null,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Mochila de Bullpadel con acabado efecto carbono, compartimento acolchado para pala, espacio principal para ropa y accesorios y correas ajustables.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "1 pala" },
+      { "clave": "Acabado", "valor": "Efecto carbono" },
+      { "clave": "Formato", "valor": "Mochila con correas ajustables" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B07TTXBMQT" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/6125gS4pCwL._AC_SX679_.jpg"
+  },
+  {
+    "id": "nox-paletero-at10-team-blanco",
+    "nombre": "Nox Paletero AT10 Team Blanco",
+    "marca": "Nox",
+    "precio": 47.55,
+    "precioAntes": null,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Paletero de Agustín Tapia con compartimento principal para 3 palas, compartimento térmico ThermoTech para 2 palas más, zapatillero ventilado y función mochila.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "Hasta 5 palas (3 + 2 térmico)" },
+      { "clave": "Compartimento térmico", "valor": "ThermoTech" },
+      { "clave": "Zapatillero", "valor": "Ventilado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0D89H8VX7" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61Yj7ocQ-8L._AC_SX679_.jpg"
+  },
+  {
+    "id": "head-paletero-base",
+    "nombre": "HEAD Paletero Base",
+    "marca": "HEAD",
+    "precio": 32.49,
+    "precioAntes": null,
+    "subcategoria": "Paletero",
+    "descripcionCorta": "Paletero compacto de HEAD con dos compartimentos principales para palas, zona separada para calzado, bolsillos para accesorios y correas acolchadas.",
+    "specs": [
+      { "clave": "Capacidad", "valor": "2 compartimentos principales" },
+      { "clave": "Zapatillero", "valor": "Zona separada" },
+      { "clave": "Formato", "valor": "Correas acolchadas" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DSJXHPV8" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51Np+dfHM6L._AC_SX679_.jpg"
   }
 ]

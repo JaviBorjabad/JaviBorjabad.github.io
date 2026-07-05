@@ -46,6 +46,14 @@ module.exports = function (eleventyConfig) {
     return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
   });
 
+  eleventyConfig.addFilter("porMarca", (productos) => {
+    if (!Array.isArray(productos)) return [];
+    return [...productos].sort((a, b) => {
+      const marca = a.marca.localeCompare(b.marca, "es");
+      return marca !== 0 ? marca : a.nombre.localeCompare(b.nombre, "es");
+    });
+  });
+
   return {
     dir: {
       input: "src",

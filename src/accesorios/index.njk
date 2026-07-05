@@ -8,6 +8,10 @@ heroTitulo: Los pequeños detalles también cuentan
 heroTexto: Un grip en condiciones o un protector de pala pueden alargar la vida de tu equipo — o cambiar cómo sientes cada golpe.
 ---
 {% from "partials/producto-card.njk" import card %}
+{% set marcas = productos.accesorios | unicos("marca") %}
+{% set subcategorias = productos.accesorios | unicos("subcategoria") %}
+{% set mostrarPrecio = true %}
+{% set mostrarOrden = true %}
 
 <section class="contenedor" style="padding-top: 24px;">
   {% include "partials/categoria-hero.njk" %}
@@ -17,10 +21,11 @@ heroTexto: Un grip en condiciones o un protector de pala pueden alargar la vida 
   <p>Los accesorios de menor coste tienen impacto directo en el rendimiento: un overgrip seco mantiene el agarre en partidos largos, un protector de pala frena el desgaste del marco en golpes bajos, y una muñequera de rizo controla la sudoración en manos.</p>
 
   {% include "partials/aviso-afiliados.njk" %}
+  {% include "partials/subcategoria-submenu.njk" %}
   {% include "partials/filtros.njk" %}
 
   <div class="productos-grid">
-    {% for producto in productos.accesorios %}
+    {% for producto in productos.accesorios | porMarca %}
       {{ card(producto, "accesorios", afiliados) }}
     {% endfor %}
   </div>
