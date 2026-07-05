@@ -232,6 +232,50 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
   color: var(--blanco);
 }
 
+/* ---------- Recomendador de palas ---------- */
+.recomendador-form {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.recomendador-pregunta__titulo {
+  font-weight: 500;
+  color: var(--negro);
+  margin-bottom: 10px;
+}
+.recomendador-opciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.recomendador-opcion {
+  font-family: var(--fuente);
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  background: var(--blanco);
+  color: var(--negro);
+  cursor: pointer;
+}
+.recomendador-opcion.is-activo {
+  background: var(--negro);
+  border-color: var(--negro);
+  color: var(--blanco);
+}
+.recomendador-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 20px;
+  border: 1px solid var(--negro);
+  border-radius: var(--radio);
+  margin-top: 16px;
+  font-weight: 500;
+}
+.recomendador-cta:hover { opacity: 0.82; }
+
 /* ---------- Barra de filtros ---------- */
 .filtros-toggle {
   margin: 16px 0 0;

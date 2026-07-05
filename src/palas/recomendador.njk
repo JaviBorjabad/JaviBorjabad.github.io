@@ -1,0 +1,68 @@
+---
+layout: layouts/base.njk
+titulo: "¿Qué pala necesito? Recomendador"
+descripcion: Responde 4 preguntas y te decimos qué pala de pádel se ajusta mejor a tu nivel, estilo de juego y presupuesto.
+permalink: /palas/recomendador/
+categoriaComparador: palas
+---
+{% from "partials/producto-card.njk" import card %}
+
+<section class="contenedor" style="padding-top: 24px; padding-bottom: 16px;">
+  <p class="ficha-producto__migas" style="margin-top: 16px;">
+    <a href="/palas/">Palas</a> / Recomendador
+  </p>
+  <div class="seccion__titulo-linea" style="margin-top: 8px;">
+    <h1 style="margin:0;">¿Qué pala necesito?</h1>
+  </div>
+  <p>Responde estas 4 preguntas y te mostramos, con las palas reales de nuestro catálogo, las 3 que mejor encajan contigo. Puedes cambiar cualquier respuesta y la recomendación se actualiza al momento.</p>
+
+  <form class="recomendador-form" data-recomendador-form>
+    <div class="recomendador-pregunta">
+      <p class="recomendador-pregunta__titulo">1. ¿Cuál es tu nivel de juego?</p>
+      <div class="recomendador-opciones" data-recomendador-grupo="nivel">
+        <button type="button" class="recomendador-opcion" data-valor="Iniciación">Iniciación</button>
+        <button type="button" class="recomendador-opcion is-activo" data-valor="Intermedio">Intermedio</button>
+        <button type="button" class="recomendador-opcion" data-valor="Avanzado">Avanzado</button>
+      </div>
+    </div>
+
+    <div class="recomendador-pregunta">
+      <p class="recomendador-pregunta__titulo">2. ¿Qué priorizas en tu juego?</p>
+      <div class="recomendador-opciones" data-recomendador-grupo="prioridad">
+        <button type="button" class="recomendador-opcion" data-valor="Control">Control</button>
+        <button type="button" class="recomendador-opcion is-activo" data-valor="Equilibrado">Equilibrado</button>
+        <button type="button" class="recomendador-opcion" data-valor="Potencia">Potencia</button>
+      </div>
+    </div>
+
+    <div class="recomendador-pregunta">
+      <p class="recomendador-pregunta__titulo">3. ¿Cuál es tu presupuesto?</p>
+      <div class="recomendador-opciones" data-recomendador-grupo="presupuesto">
+        <button type="button" class="recomendador-opcion" data-valor="100">Hasta 100 €</button>
+        <button type="button" class="recomendador-opcion is-activo" data-valor="200">100-200 €</button>
+        <button type="button" class="recomendador-opcion" data-valor="Infinity">Más de 200 €</button>
+      </div>
+    </div>
+
+    <div class="recomendador-pregunta">
+      <p class="recomendador-pregunta__titulo">4. ¿Notas molestias en el codo o la muñeca al jugar?</p>
+      <div class="recomendador-opciones" data-recomendador-grupo="codo">
+        <button type="button" class="recomendador-opcion" data-valor="Si">Sí</button>
+        <button type="button" class="recomendador-opcion is-activo" data-valor="No">No</button>
+      </div>
+    </div>
+  </form>
+</section>
+
+<section class="contenedor" data-recomendador-resultado>
+  <div class="seccion__titulo-linea" style="margin-top: 8px;">
+    <h2 style="margin:0;">Tu recomendación</h2>
+  </div>
+  <div class="productos-grid" data-recomendador-grid>
+    {% for producto in productos.palas %}
+      {{ card(producto, "palas", afiliados) }}
+    {% endfor %}
+  </div>
+</section>
+
+<script src="/assets/js/recomendador.js" defer></script>
