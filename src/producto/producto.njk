@@ -87,3 +87,10 @@ eleventyComputed:
     </div>
   </div>
 </section>
+
+<div class="cta-flotante-movil">
+  <span class="cta-flotante-movil__precio">{{ producto.precio | euros }}</span>
+  <a href="{{ url(producto, afiliados) | trim }}" class="boton boton--cta" rel="nofollow sponsored noopener" target="_blank">
+    Ver precio en {{ nombreTienda(producto, afiliados) | trim }}
+  </a>
+</div>
