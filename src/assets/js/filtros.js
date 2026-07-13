@@ -55,7 +55,7 @@
         }
         if (marca && cardMarca !== marca) ok = false;
         if (forma && cardForma !== forma) ok = false;
-        if (nivel && cardNivel !== nivel) ok = false;
+        if (nivel && cardNivel.indexOf(nivel) === -1) ok = false;
         if (subcategoriaActiva && cardSubcategoria !== subcategoriaActiva) ok = false;
         if (min !== null && !isNaN(min) && precio < min) ok = false;
         if (max !== null && !isNaN(max) && precio > max) ok = false;

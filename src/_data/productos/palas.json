@@ -737,7 +737,7 @@
       { "clave": "Balance", "valor": "Bajo (aprox. 275 mm)" },
       { "clave": "Núcleo", "valor": "Power Foam" },
       { "clave": "Carbono", "valor": "Sin carbono (marco y caras de fibra de vidrio, tecnología Innegra)" },
-      { "clave": "Nivel recomendado", "valor": "Junior / Iniciación" }
+      { "clave": "Nivel recomendado", "valor": "Iniciación" }
     ],
     "afiliado": { "red": "amazon", "asin": "B0BSL99SWB" },
     "destacado": false,
@@ -940,5 +940,179 @@
     "afiliado": { "red": "amazon", "asin": "B0DNTQTRND" },
     "destacado": false,
     "imagen": "https://m.media-amazon.com/images/I/51331iOxqDL._AC_SX679_.jpg"
+  },
+  {
+    "id": "nox-x-zero-negro-oro",
+    "nombre": "Nox X-Zero Negro y Oro",
+    "marca": "Nox",
+    "precio": 75.0,
+    "precioAntes": null,
+    "descripcionCorta": "Edición limitada de Nox con marco reforzado, pensada para el equilibrio entre control y potencia. Buena opción polivalente para quien no quiere renunciar a ninguna de las dos cosas.",
+    "specs": [
+      { "clave": "Forma", "valor": "Redonda" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Marco", "valor": "Reforzado" },
+      { "clave": "Nivel recomendado", "valor": "Intermedio / Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0GT65J3K8" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/511g8PGkm1L._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    "id": "bullpadel-indiga-girl-26",
+    "nombre": "Bullpadel Indiga Girl 26",
+    "marca": "Bullpadel",
+    "precio": 44.9,
+    "precioAntes": 47.0,
+    "descripcionCorta": "Pala junior de Bullpadel pensada para niñas que empiezan a jugar a pádel. Núcleo Evalastic con punto dulce amplio para facilitar el contacto con la bola y coger confianza en los primeros golpes.",
+    "specs": [
+      { "clave": "Forma", "valor": "Lágrima" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Núcleo", "valor": "Evalastic" },
+      { "clave": "Nivel recomendado", "valor": "Iniciación" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0GN3R1VDF" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51RgZHoJoFL._AC_SL1200_.jpg"
+  },
+  {
+    "id": "bullpadel-game-woman",
+    "nombre": "Bullpadel Game Woman",
+    "marca": "Bullpadel",
+    "precio": 59.9,
+    "precioAntes": null,
+    "descripcionCorta": "Pala pensada para jugadoras que priorizan el control. Balance bajo que reduce la fatiga en partidos largos, con manejabilidad y ligereza para un juego técnico más que de potencia bruta.",
+    "specs": [
+      { "clave": "Forma", "valor": "Redonda" },
+      { "clave": "Balance", "valor": "Bajo" },
+      { "clave": "Nivel recomendado", "valor": "Iniciación / Intermedio" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FKH7TZ2Q" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61xSfvgSJrL._AC_SX679_.jpg"
+  },
+  {
+    "id": "nox-future-hybrid-12k-alum",
+    "nombre": "Nox Future Hybrid 12k Alum",
+    "marca": "Nox",
+    "precio": 135.3,
+    "precioAntes": 199.9,
+    "descripcionCorta": "Pala híbrida de la gama Future de Nox, con núcleo EV50 y cara de carbono aluminizado 12K. Balance medio pensado para no tener que elegir entre ataque y defensa.",
+    "specs": [
+      { "clave": "Forma", "valor": "Híbrida" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Núcleo", "valor": "EV50" },
+      { "clave": "Carbono", "valor": "12K Aluminizado" },
+      { "clave": "Nivel recomendado", "valor": "Intermedio / Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DXJN4ZQ1" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71P6TbKq-LL._AC_SX679_.jpg"
+  },
+  {
+    "id": "adidas-cross-it-light-3-3",
+    "nombre": "Adidas Cross It Light 3.3",
+    "marca": "Adidas",
+    "precio": 152.4,
+    "precioAntes": null,
+    "descripcionCorta": "Pala de la gama Cross It Light de Adidas, forma redonda y balance bajo-medio orientada al control y la manejabilidad, con caras en fibra de carbono aluminizada 24K.",
+    "specs": [
+      { "clave": "Forma", "valor": "Redonda" },
+      { "clave": "Balance", "valor": "Bajo-Medio" },
+      { "clave": "Núcleo", "valor": "Goma EVA Soft Energy" },
+      { "clave": "Carbono", "valor": "24K Aluminizado" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0CNWJ5FLW" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71wfRCPrQTL._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    "id": "nox-nextgen-pro-hybrid-3k-2025",
+    "nombre": "Nox Nextgen Pro Hybrid 3K 2025",
+    "marca": "Nox",
+    "precio": 130.69,
+    "precioAntes": 149.9,
+    "descripcionCorta": "Pala híbrida de Nox con núcleo HR3 Black EVA de alta densidad y caras de carbono 3K, pensada para adaptarse tanto a ataques explosivos como a defensa precisa.",
+    "specs": [
+      { "clave": "Forma", "valor": "Híbrida" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Núcleo", "valor": "HR3 Black EVA" },
+      { "clave": "Carbono", "valor": "3K" },
+      { "clave": "Nivel recomendado", "valor": "Intermedio / Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DXBCR474" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/613RSOCFXXL._AC_SX679_.jpg"
+  },
+  {
+    "id": "nox-future-attack-12k-alum",
+    "nombre": "Nox Future Attack 12k Alum",
+    "marca": "Nox",
+    "precio": 119.0,
+    "precioAntes": null,
+    "descripcionCorta": "Pala de la gama Future de Nox en formato diamante y balance alto, orientada a la máxima aceleración en el golpeo. Núcleo EV50 y caras de carbono aluminizado 12K.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "EV50" },
+      { "clave": "Carbono", "valor": "12K Aluminizado" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DXJ6TS72" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61dsGxxnzwL._AC_SX679_.jpg"
+  },
+  {
+    "id": "head-edge-ii-white",
+    "nombre": "Head Edge II White",
+    "marca": "Head",
+    "precio": 54.9,
+    "precioAntes": 59.9,
+    "descripcionCorta": "Pala polivalente de Head con punto dulce amplio y buena manejabilidad, pensada para jugadores que están iniciando o consolidando su nivel.",
+    "specs": [
+      { "clave": "Forma", "valor": "Lágrima" },
+      { "clave": "Balance", "valor": "Medio" },
+      { "clave": "Nivel recomendado", "valor": "Iniciación / Intermedio" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0FJ24BZ9J" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/61H0RF49L8L._AC_SX679_.jpg"
+  },
+  {
+    "id": "nox-tl10-quantum-tino-libaak-2025",
+    "nombre": "Nox Tl10 Quantum 12k by Tino Libaak 2025",
+    "marca": "Nox",
+    "precio": 155.1,
+    "precioAntes": 159.9,
+    "descripcionCorta": "Pala signature de Tino Libaak, forma lágrima con núcleo HR3 Color EVA y caras de carbono 12K. Diseñada para un equilibrio entre control defensivo y potencia en el ataque.",
+    "specs": [
+      { "clave": "Forma", "valor": "Lágrima" },
+      { "clave": "Balance", "valor": "Medio-Alto" },
+      { "clave": "Núcleo", "valor": "HR3 Color EVA" },
+      { "clave": "Carbono", "valor": "12K" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0DHT7F81L" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/71YKdNtvE1L._AC_SX679_.jpg"
+  },
+  {
+    "id": "nox-at10-genius-attack-18k-limited",
+    "nombre": "Nox AT10 Genius Attack 18K Limited Edition",
+    "marca": "Nox",
+    "precio": 145.0,
+    "precioAntes": 155.0,
+    "descripcionCorta": "Edición limitada coleccionista de la AT10 Genius, en formato diamante 100% de ataque. Núcleo MLD Black EVA multicapa y caras de carbono 18K aluminizado.",
+    "specs": [
+      { "clave": "Forma", "valor": "Diamante" },
+      { "clave": "Balance", "valor": "Alto" },
+      { "clave": "Núcleo", "valor": "MLD Black EVA" },
+      { "clave": "Carbono", "valor": "18K Aluminizado" },
+      { "clave": "Nivel recomendado", "valor": "Avanzado" }
+    ],
+    "afiliado": { "red": "amazon", "asin": "B0C954F2W8" },
+    "destacado": false,
+    "imagen": "https://m.media-amazon.com/images/I/51WS01YZ2WL._AC_SX679_.jpg"
   }
 ]

@@ -46,6 +46,15 @@ module.exports = function (eleventyConfig) {
     return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
   });
 
+  eleventyConfig.addFilter("unicosSpecPartes", (productos, clave) => {
+    if (!Array.isArray(productos)) return [];
+    const valores = productos
+      .map((p) => (p.specs || []).find((s) => s.clave === clave))
+      .filter(Boolean)
+      .flatMap((s) => s.valor.split("/").map((parte) => parte.trim()));
+    return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
+  });
+
   eleventyConfig.addFilter("porMarca", (productos) => {
     if (!Array.isArray(productos)) return [];
     return [...productos].sort((a, b) => {
