@@ -576,6 +576,11 @@ ul { margin: 0 0 1em; padding-left: 1.2em; }
   font-size: 2rem;
   color: var(--negro);
 }
+.ficha-producto__precio-nota {
+  font-size: 0.78rem;
+  color: var(--gris-500);
+  margin: -4px 0 0;
+}
 .tabla-specs {
   width: 100%;
   border-collapse: collapse;

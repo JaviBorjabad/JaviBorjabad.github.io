@@ -66,6 +66,7 @@ eleventyComputed:
         <a href="{{ url(producto, afiliados) | trim }}" class="boton boton--cta boton--grande" rel="nofollow sponsored noopener" target="_blank">
           Ver precio en {{ nombreTienda(producto, afiliados) | trim }}
         </a>
+        <p class="ficha-producto__precio-nota">Precio orientativo — puede variar en Amazon</p>
         {% if producto.categoria == "palas" or producto.categoria == "zapatillas" %}
           <button type="button" class="boton-comparar" data-comparador-toggle data-categoria="{{ producto.categoria }}" data-id="{{ producto.id }}" data-nombre="{{ producto.nombre }}" data-activo="false">
             <span class="boton-comparar__texto">Comparar</span>
