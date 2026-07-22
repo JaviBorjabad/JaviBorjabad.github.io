@@ -75,7 +75,7 @@
     "id": "metalbone-ale-galan",
     "nombre": "Adidas Metalbone 3.3 Ale Galán",
     "marca": "Adidas",
-    "precio": 169.99,
+    "precio": 168.99,
     "precioAntes": null,
     "descripcionCorta": "Una de las palas oficiales de Ale Galán, número 1/2 del ranking mundial. Formato Diamond Oversize con tecnología Octagonal Structure para máxima rigidez, y sistema Weight & Balance System que permite ajustar el peso hasta 12 g mediante tornillos removibles. Diseñada para jugadores profesionales que buscan potencia sin renunciar al control.",
     "specs": [
@@ -111,8 +111,8 @@
     "id": "viper-lebron",
     "nombre": "Babolat Viper Juan Lebrón 2025",
     "marca": "Babolat",
-    "precio": 174.95,
-    "precioAntes": 190.16,
+    "precio": 174.9,
+    "precioAntes": 190.9,
     "descripcionCorta": "Pala oficial de Juan Lebrón, número 1 del mundo, diseñada para un juego ofensivo. Formato diamante y balance alto pensado para rematar, hacer víboras y bandejas con máxima potencia. Incorpora tecnología Dynamic Stability System (barra central reforzada) y acabado rugoso 3D Spin+ para dar efecto a la bola.",
     "specs": [
       {
@@ -151,7 +151,7 @@
     "id": "adidas-metalbone-2026-ale-galan",
     "nombre": "Adidas Metalbone 2026 - Ale Galán",
     "marca": "Adidas",
-    "precio": 249.99,
+    "precio": 259.0,
     "precioAntes": 390.0,
     "descripcionCorta": "Pala oficial de Ale Galán para 2026, formato diamante con sistema de pesos ajustables para personalizar balance y potencia.",
     "specs": [
@@ -271,7 +271,7 @@
     "id": "bullpadel-vertex-04-2025",
     "nombre": "Bullpadel Vertex 04 2025",
     "marca": "Bullpadel",
-    "precio": 159.95,
+    "precio": 149.95,
     "precioAntes": null,
     "descripcionCorta": "Gama Vertex de Bullpadel, referencia en control con marco CarbonTube para estabilidad y precisión en el golpeo.",
     "specs": [
@@ -347,7 +347,7 @@
     "id": "babolat-viper-juan-lebron-3",
     "nombre": "Babolat Viper Juan Lebrón 3.0",
     "marca": "Babolat",
-    "precio": 224.95,
+    "precio": 219.9,
     "precioAntes": null,
     "descripcionCorta": "Pala signature de Juan Lebrón, concebida especialmente para jugadores ofensivos que buscan definir puntos en la red.",
     "specs": [
@@ -383,7 +383,7 @@
     "id": "siux-electra-pro-stupa",
     "nombre": "Siux Electra Stupa Pro ST4",
     "marca": "Siux",
-    "precio": 145.0,
+    "precio": 144.9,
     "precioAntes": 232.9,
     "descripcionCorta": "Pala del argentino Franco Stupa, forma híbrida que se adapta a distintos estilos de juego, construida 100% en carbono.",
     "specs": [
@@ -419,7 +419,7 @@
     "id": "adidas-cross-it-light-2026",
     "nombre": "Adidas Cross It Light 2026 - Martita Ortega",
     "marca": "Adidas",
-    "precio": 259.95,
+    "precio": 229.49,
     "precioAntes": 300.0,
     "descripcionCorta": "Pala ligera y manejable asociada a Martita Ortega, pensada para jugadoras avanzadas que priorizan comodidad y velocidad en la red.",
     "specs": [
@@ -491,8 +491,8 @@
     "id": "nox-at10-luxury-genius-12k-xtreme-2026",
     "nombre": "Nox AT10 Luxury Genius 12K Alum Xtreme 2026",
     "marca": "Nox",
-    "precio": 239.95,
-    "precioAntes": 289.9,
+    "precio": 232.9,
+    "precioAntes": 246.95,
     "descripcionCorta": "Versión premium de la gama AT10, con carbono 12K para un plus de potencia respecto a temporadas anteriores.",
     "specs": [
       {
@@ -527,7 +527,7 @@
     "id": "babolat-technical-viper-3-2026",
     "nombre": "Babolat Technical Viper 3.0 2026",
     "marca": "Babolat",
-    "precio": 274.95,
+    "precio": 269.9,
     "precioAntes": null,
     "descripcionCorta": "Modelo técnico de la gama Viper de Babolat, formato diamante orientado a jugadores ofensivos, disponible también en versiones Air y Counter.",
     "specs": [
@@ -657,7 +657,7 @@
     "id": "bullpadel-vertex-04-comfort",
     "nombre": "Bullpadel Vertex 04 Comfort",
     "marca": "Bullpadel",
-    "precio": 109.95,
+    "precio": 109.9,
     "precioAntes": 127.9,
     "descripcionCorta": "Versión Comfort de la Vertex 04, pala elegida por Martín Di Nenno. Forma diamante y balance alto para máxima potencia, con materiales pensados para dar un plus de confort respecto a la versión estándar.",
     "specs": [
@@ -693,7 +693,7 @@
     "id": "adidas-metalbone-carbon-ctrl-3-3",
     "nombre": "Adidas Metalbone Carbon Ctrl 3.3",
     "marca": "Adidas",
-    "precio": 139.95,
+    "precio": 134.9,
     "precioAntes": 260.0,
     "descripcionCorta": "Versión de control de la gama Metalbone, usada por Pol Hernández. Forma redonda pensada para maximizar la manejabilidad y el control sin renunciar del todo a la potencia.",
     "specs": [
@@ -783,7 +783,7 @@
     "id": "bullpadel-vertex-04-mx-24",
     "nombre": "Bullpadel Vertex 04 MX 24",
     "marca": "Bullpadel",
-    "precio": 216.41,
+    "precio": 216.46,
     "precioAntes": null,
     "descripcionCorta": "Edición especial del torneo GNP México Major Premier Padel, con diseño de calaveras inspirado en el estilo mexicano. Misma tecnología de la Vertex 04 estándar para jugadores expertos.",
     "specs": [
@@ -837,7 +837,7 @@
     "id": "bullpadel-vertex-04-25-woman",
     "nombre": "Bullpadel Vertex 04 25 Woman",
     "marca": "Bullpadel",
-    "precio": 149.95,
+    "precio": 144.92,
     "precioAntes": null,
     "descripcionCorta": "Pala oficial de Delfi Brea para 2025, forma diamante y balance alto que aporta máxima potencia sin perder el control, con peso ligero y manejable.",
     "specs": [
@@ -855,7 +855,7 @@
     "id": "head-coello-team-2026",
     "nombre": "Head Coello Team 2026",
     "marca": "Head",
-    "precio": 173.05,
+    "precio": 171.0,
     "precioAntes": null,
     "descripcionCorta": "Versión más accesible de la gama Coello de Arturo Coello, con forma diamante y balance bajo para facilitar el manejo y el control conservando el ADN ofensivo.",
     "specs": [
@@ -891,7 +891,7 @@
     "id": "bullpadel-pearl-2026",
     "nombre": "Bullpadel Pearl 2026",
     "marca": "Bullpadel",
-    "precio": 192.9,
+    "precio": 189.9,
     "precioAntes": 279.95,
     "descripcionCorta": "Pala oficial de Bea González, forma diamante y balance alto para golpes ofensivos explosivos, con un tacto medio-blando poco habitual en palas de diamante.",
     "specs": [
